@@ -1,0 +1,5409 @@
+{
+  "application/andrew-inset": {
+    "comment": "ATK inset",
+    "extensions": [
+      "ez"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/epub+zip": {
+    "comment": "electronic book document",
+    "super_type": "application/zip",
+    "extensions": [
+      "epub"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/illustrator": {
+    "comment": "Adobe Illustrator document",
+    "extensions": [
+      "ai"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/mac-binhex40": {
+    "comment": "Macintosh BinHex-encoded file",
+    "generic_icon": "package-x-generic"
+  },
+  "application/mathematica": {
+    "aliases": [
+      "application/x-mathematica"
+    ],
+    "comment": "Mathematica Notebook",
+    "super_type": "text/plain",
+    "extensions": [
+      "nb"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/mathml+xml": {
+    "aliases": [
+      "text/mathml"
+    ],
+    "comment": "MathML document",
+    "super_type": "application/xml",
+    "extensions": [
+      "mml"
+    ]
+  },
+  "application/mbox": {
+    "comment": "mailbox file",
+    "super_type": "text/plain",
+    "extensions": [
+      "mbox"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/metalink+xml": {
+    "comment": "Metalink file",
+    "super_type": "application/xml",
+    "extensions": [
+      "metalink"
+    ]
+  },
+  "application/metalink4+xml": {
+    "comment": "Metalink file",
+    "super_type": "application/xml",
+    "extensions": [
+      "meta4"
+    ]
+  },
+  "application/octet-stream": {
+    "comment": "unknown",
+    "extensions": [
+      "bin"
+    ]
+  },
+  "application/x-partial-download": {
+    "comment": "Partially downloaded file",
+    "extensions": [
+      "wkdownload",
+      "crdownload",
+      "part"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/oda": {
+    "comment": "ODA document",
+    "extensions": [
+      "oda"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-wwf": {
+    "aliases": [
+      "application/wwf"
+    ],
+    "comment": "WWF document",
+    "super_type": "application/pdf",
+    "extensions": [
+      "wwf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/pdf": {
+    "aliases": [
+      "application/x-pdf",
+      "image/pdf",
+      "application/acrobat"
+    ],
+    "comment": "PDF document",
+    "extensions": [
+      "pdf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/xspf+xml": {
+    "aliases": [
+      "application/x-xspf+xml"
+    ],
+    "comment": "XSPF playlist",
+    "super_type": "application/xml",
+    "extensions": [
+      "xspf"
+    ],
+    "generic_icon": "audio-x-generic"
+  },
+  "application/x-windows-themepack": {
+    "comment": "Microsoft Windows theme pack",
+    "super_type": "application/vnd.ms-cab-compressed",
+    "extensions": [
+      "themepack"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "audio/x-amzxml": {
+    "comment": "AmazonMP3 download file",
+    "extensions": [
+      "amz"
+    ]
+  },
+  "audio/x-gsm": {
+    "comment": "GSM 06.10 audio",
+    "extensions": [
+      "gsm"
+    ]
+  },
+  "audio/x-iriver-pla": {
+    "comment": "iRiver Playlist",
+    "extensions": [
+      "pla"
+    ]
+  },
+  "application/pgp-encrypted": {
+    "aliases": [
+      "application/pgp"
+    ],
+    "comment": "PGP/MIME-encrypted message header",
+    "super_type": "text/plain",
+    "extensions": [
+      "pgp",
+      "gpg",
+      "asc"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pgp-keys": {
+    "comment": "PGP keys",
+    "super_type": "text/plain",
+    "extensions": [
+      "skr",
+      "pkr",
+      "asc",
+      "pgp",
+      "gpg"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pgp-signature": {
+    "comment": "detached OpenPGP signature",
+    "super_type": "text/plain",
+    "extensions": [
+      "asc",
+      "sig",
+      "pgp",
+      "gpg"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pkcs7-mime": {
+    "comment": "PKCS#7 Message or Certificate",
+    "extensions": [
+      "p7c",
+      "p7m"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pkcs7-signature": {
+    "comment": "detached S/MIME signature",
+    "super_type": "text/plain",
+    "extensions": [
+      "p7s"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pkcs8": {
+    "comment": "PKCS#8 private key",
+    "extensions": [
+      "p8"
+    ]
+  },
+  "application/pkcs10": {
+    "comment": "PKCS#10 certification request",
+    "extensions": [
+      "p10"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/pkix-cert": {
+    "comment": "X.509 certificate",
+    "extensions": [
+      "cer"
+    ]
+  },
+  "application/pkix-crl": {
+    "comment": "Certificate revocation list",
+    "extensions": [
+      "crl"
+    ]
+  },
+  "application/pkix-pkipath": {
+    "comment": "PkiPath certification path",
+    "extensions": [
+      "pkipath"
+    ]
+  },
+  "application/postscript": {
+    "comment": "PS document",
+    "super_type": "text/plain",
+    "extensions": [
+      "ps"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/prs.plucker": {
+    "comment": "Plucker document",
+    "generic_icon": "x-office-document"
+  },
+  "application/relax-ng-compact-syntax": {
+    "aliases": [
+      "application/x-rnc"
+    ],
+    "comment": "RELAX NG XML schema",
+    "super_type": "text/plain",
+    "extensions": [
+      "rnc"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/rtf": {
+    "aliases": [
+      "text/rtf"
+    ],
+    "comment": "RTF document",
+    "super_type": "text/plain",
+    "extensions": [
+      "rtf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/sieve": {
+    "comment": "Sieve mail filter script",
+    "super_type": "application/xml",
+    "extensions": [
+      "siv"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/smil+xml": {
+    "aliases": [
+      "application/smil"
+    ],
+    "comment": "SMIL document",
+    "super_type": "application/xml",
+    "extensions": [
+      "smil",
+      "smi",
+      "sml",
+      "kino"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "application/vnd.ms-wpl": {
+    "comment": "WPL playlist",
+    "extensions": [
+      "wpl"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "application/x-sqlite2": {
+    "comment": "SQLite2 database"
+  },
+  "application/x-sqlite3": {
+    "comment": "SQLite3 database"
+  },
+  "application/x-gedcom": {
+    "aliases": [
+      "text/gedcom"
+    ],
+    "comment": "GEDCOM family history",
+    "extensions": [
+      "ged",
+      "gedcom"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "video/x-flv": {
+    "aliases": [
+      "application/x-flash-video",
+      "flv-application/octet-stream",
+      "video/flv"
+    ],
+    "comment": "Flash video",
+    "extensions": [
+      "flv"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "video/x-javafx": {
+    "comment": "JavaFX video",
+    "super_type": "video/x-flv",
+    "extensions": [
+      "fxm"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "application/x-go-sgf": {
+    "comment": "SGF record",
+    "super_type": "text/plain",
+    "extensions": [
+      "sgf"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-xliff": {
+    "comment": "XLIFF translation file",
+    "super_type": "application/xml",
+    "extensions": [
+      "xlf",
+      "xliff"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-yaml": {
+    "aliases": [
+      "text/yaml",
+      "text/x-yaml"
+    ],
+    "comment": "YAML document",
+    "super_type": "text/plain",
+    "extensions": [
+      "yaml",
+      "yml"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/vnd.corel-draw": {
+    "aliases": [
+      "application/cdr",
+      "application/coreldraw",
+      "application/x-cdr",
+      "application/x-coreldraw",
+      "image/cdr",
+      "image/x-cdr",
+      "zz-application/zz-winassoc-cdr"
+    ],
+    "comment": "Corel Draw drawing",
+    "extensions": [
+      "cdr"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.hp-hpgl": {
+    "comment": "HPGL file",
+    "extensions": [
+      "hpgl"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.hp-pcl": {
+    "comment": "PCL file",
+    "extensions": [
+      "pcl"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.lotus-1-2-3": {
+    "aliases": [
+      "application/x-lotus123",
+      "application/x-123",
+      "application/lotus123",
+      "application/wk1",
+      "zz-application/zz-winassoc-123"
+    ],
+    "comment": "Lotus 1-2-3 spreadsheet",
+    "extensions": [
+      "123",
+      "wk1",
+      "wk3",
+      "wk4",
+      "wks"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.lotus-wordpro": {
+    "comment": "Lotus Word Pro",
+    "extensions": [
+      "lwp"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.ms-access": {
+    "aliases": [
+      "application/x-msaccess",
+      "application/msaccess",
+      "application/vnd.msaccess",
+      "application/x-msaccess",
+      "application/mdb",
+      "application/x-mdb",
+      "zz-application/zz-winassoc-mdb"
+    ],
+    "comment": "JET database",
+    "extensions": [
+      "mdb"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.ms-cab-compressed": {
+    "aliases": [
+      "zz-application/zz-winassoc-cab"
+    ],
+    "comment": "Microsoft Cabinet archive",
+    "extensions": [
+      "cab"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/vnd.ms-excel": {
+    "aliases": [
+      "application/msexcel",
+      "application/x-msexcel",
+      "zz-application/zz-winassoc-xls"
+    ],
+    "comment": "Excel spreadsheet",
+    "extensions": [
+      "xls",
+      "xlc",
+      "xll",
+      "xlm",
+      "xlw",
+      "xla",
+      "xlt",
+      "xld"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.ms-excel.addin.macroEnabled.12": {
+    "comment": "Excel add-in",
+    "super_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "extensions": [
+      "xlam"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.ms-excel.sheet.binary.macroEnabled.12": {
+    "comment": "Excel 2007 binary spreadsheet",
+    "super_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "extensions": [
+      "xlsb"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.ms-excel.sheet.macroEnabled.12": {
+    "comment": "Excel macro-enabled spreadsheet",
+    "super_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "extensions": [
+      "xlsm"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.ms-excel.template.macroEnabled.12": {
+    "comment": "Excel macro-enabled spreadsheet template",
+    "super_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+    "extensions": [
+      "xltm"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.ms-powerpoint": {
+    "aliases": [
+      "application/powerpoint",
+      "application/mspowerpoint",
+      "application/x-mspowerpoint"
+    ],
+    "comment": "PowerPoint presentation",
+    "extensions": [
+      "ppz",
+      "ppt",
+      "pps",
+      "pot"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-powerpoint.addin.macroEnabled.12": {
+    "comment": "PowerPoint add-in",
+    "extensions": [
+      "ppam"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-powerpoint.presentation.macroEnabled.12": {
+    "comment": "PowerPoint macro-enabled presentation",
+    "super_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "extensions": [
+      "pptm"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-powerpoint.slide.macroEnabled.12": {
+    "comment": "PowerPoint macro-enabled slide",
+    "super_type": "application/vnd.openxmlformats-officedocument.presentationml.slide",
+    "extensions": [
+      "sldm"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-powerpoint.slideshow.macroEnabled.12": {
+    "comment": "PowerPoint macro-enabled presentation",
+    "super_type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+    "extensions": [
+      "ppsm"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-powerpoint.template.macroEnabled.12": {
+    "comment": "PowerPoint macro-enabled presentation template",
+    "super_type": "application/vnd.openxmlformats-officedocument.presentationml.template",
+    "extensions": [
+      "potm"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.ms-word.document.macroEnabled.12": {
+    "comment": "Word macro-enabled document",
+    "super_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "extensions": [
+      "docm"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.ms-word.template.macroEnabled.12": {
+    "comment": "Word macro-enabled document template",
+    "super_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+    "extensions": [
+      "dotm"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/oxps": {
+    "aliases": [
+      "application/vnd.ms-xpsdocument"
+    ],
+    "comment": "XPS document",
+    "super_type": "application/zip",
+    "extensions": [
+      "oxps",
+      "xps"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.ms-works": {
+    "comment": "Microsoft Works document",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "wcm",
+      "wdb",
+      "wks",
+      "wps",
+      "xlr"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.visio": {
+    "comment": "Microsoft Visio document",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "vsd",
+      "vst",
+      "vsw",
+      "vss"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/msword": {
+    "aliases": [
+      "application/vnd.ms-word",
+      "application/x-msword",
+      "zz-application/zz-winassoc-doc"
+    ],
+    "comment": "Word document",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "doc"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/msword-template": {
+    "comment": "Word template",
+    "super_type": "application/msword",
+    "extensions": [
+      "dot"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/gml+xml": {
+    "comment": "GML document",
+    "super_type": "application/xml",
+    "extensions": [
+      "gml"
+    ]
+  },
+  "application/gnunet-directory": {
+    "comment": "GNUnet search file",
+    "extensions": [
+      "gnd"
+    ]
+  },
+  "application/vnd.ms-tnef": {
+    "aliases": [
+      "application/ms-tnef"
+    ],
+    "comment": "TNEF message",
+    "extensions": [
+      "tnef",
+      "tnf",
+      "nmail.dat"
+    ]
+  },
+  "application/vnd.stardivision.calc": {
+    "comment": "StarCalc spreadsheet",
+    "extensions": [
+      "sdc"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.stardivision.chart": {
+    "comment": "StarChart chart",
+    "extensions": [
+      "sds"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.stardivision.draw": {
+    "comment": "StarDraw drawing",
+    "extensions": [
+      "sda"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.stardivision.impress": {
+    "comment": "StarImpress presentation",
+    "extensions": [
+      "sdd",
+      "sdp"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.stardivision.mail": {
+    "comment": "StarMail email",
+    "extensions": [
+      "smd"
+    ]
+  },
+  "application/vnd.stardivision.math": {
+    "comment": "StarMath formula",
+    "extensions": [
+      "smf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.stardivision.writer": {
+    "aliases": [
+      "application/vnd.stardivision.writer-global"
+    ],
+    "comment": "StarWriter document",
+    "extensions": [
+      "sdw",
+      "vor",
+      "sgl"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.sun.xml.calc": {
+    "comment": "OpenOffice Calc spreadsheet",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxc"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.sun.xml.calc.template": {
+    "comment": "OpenOffice Calc template",
+    "super_type": "application/zip",
+    "extensions": [
+      "stc"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.sun.xml.draw": {
+    "comment": "OpenOffice Draw drawing",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxd"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.sun.xml.draw.template": {
+    "comment": "OpenOffice Draw template",
+    "super_type": "application/zip",
+    "extensions": [
+      "std"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.sun.xml.impress": {
+    "comment": "OpenOffice Impress presentation",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxi"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.sun.xml.impress.template": {
+    "comment": "OpenOffice Impress template",
+    "super_type": "application/zip",
+    "extensions": [
+      "sti"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.sun.xml.math": {
+    "comment": "OpenOffice Math formula",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxm"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.sun.xml.writer": {
+    "comment": "OpenOffice Writer document",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.sun.xml.writer.global": {
+    "comment": "OpenOffice Writer global document",
+    "super_type": "application/zip",
+    "extensions": [
+      "sxg"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.sun.xml.writer.template": {
+    "comment": "OpenOffice Writer template",
+    "super_type": "application/zip",
+    "extensions": [
+      "stw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.text": {
+    "comment": "ODT document",
+    "super_type": "application/zip",
+    "extensions": [
+      "odt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.text-flat-xml": {
+    "comment": "ODT document (Flat XML)",
+    "super_type": "application/xml",
+    "extensions": [
+      "fodt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.text-template": {
+    "comment": "ODT template",
+    "super_type": "application/zip",
+    "extensions": [
+      "ott"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.text-web": {
+    "comment": "OTH template",
+    "super_type": "application/zip",
+    "extensions": [
+      "oth"
+    ],
+    "generic_icon": "text-html"
+  },
+  "application/vnd.oasis.opendocument.text-master": {
+    "comment": "ODM document",
+    "super_type": "application/zip",
+    "extensions": [
+      "odm"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.graphics": {
+    "comment": "ODG drawing",
+    "super_type": "application/zip",
+    "extensions": [
+      "odg"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.oasis.opendocument.graphics-flat-xml": {
+    "comment": "ODG drawing (Flat XML)",
+    "super_type": "application/xml",
+    "extensions": [
+      "fodg"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.oasis.opendocument.graphics-template": {
+    "comment": "ODG template",
+    "super_type": "application/zip",
+    "extensions": [
+      "otg"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.oasis.opendocument.presentation": {
+    "comment": "ODP presentation",
+    "super_type": "application/zip",
+    "extensions": [
+      "odp"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.oasis.opendocument.presentation-flat-xml": {
+    "comment": "ODP presentation (Flat XML)",
+    "super_type": "application/xml",
+    "extensions": [
+      "fodp"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.oasis.opendocument.presentation-template": {
+    "comment": "ODP template",
+    "super_type": "application/zip",
+    "extensions": [
+      "otp"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.oasis.opendocument.spreadsheet": {
+    "comment": "ODS spreadsheet",
+    "super_type": "application/zip",
+    "extensions": [
+      "ods"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.oasis.opendocument.spreadsheet-flat-xml": {
+    "comment": "ODS spreadsheet (Flat XML)",
+    "super_type": "application/xml",
+    "extensions": [
+      "fods"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.oasis.opendocument.spreadsheet-template": {
+    "comment": "ODS template",
+    "super_type": "application/zip",
+    "extensions": [
+      "ots"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.oasis.opendocument.chart": {
+    "comment": "ODC chart",
+    "super_type": "application/zip",
+    "extensions": [
+      "odc"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.oasis.opendocument.chart-template": {
+    "comment": "ODC template",
+    "super_type": "application/zip",
+    "extensions": [
+      "otc"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.oasis.opendocument.formula": {
+    "comment": "ODF formula",
+    "super_type": "application/zip",
+    "extensions": [
+      "odf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.formula-template": {
+    "comment": "ODF template",
+    "super_type": "application/zip",
+    "extensions": [
+      "otf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.database": {
+    "aliases": [
+      "application/vnd.sun.xml.base"
+    ],
+    "comment": "ODB database",
+    "super_type": "application/zip",
+    "extensions": [
+      "odb"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.oasis.opendocument.image": {
+    "comment": "ODI image",
+    "super_type": "application/zip",
+    "extensions": [
+      "odi"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/vnd.openofficeorg.extension": {
+    "comment": "OpenOffice.org extension",
+    "super_type": "application/zip",
+    "extensions": [
+      "oxt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.android.package-archive": {
+    "comment": "Android package",
+    "super_type": "application/x-java-archive",
+    "extensions": [
+      "apk"
+    ]
+  },
+  "application/vnd.symbian.install": {
+    "comment": "SIS package",
+    "extensions": [
+      "sis"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "x-epoc/x-sisx-app": {
+    "comment": "SISX package",
+    "extensions": [
+      "sisx"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/vnd.tcpdump.pcap": {
+    "aliases": [
+      "application/x-pcap",
+      "application/pcap"
+    ],
+    "comment": "Network Packet Capture",
+    "extensions": [
+      "pcap",
+      "cap",
+      "dmp"
+    ]
+  },
+  "application/vnd.wordperfect": {
+    "aliases": [
+      "application/x-wordperfect",
+      "application/wordperfect"
+    ],
+    "comment": "WordPerfect document",
+    "extensions": [
+      "wp",
+      "wp4",
+      "wp5",
+      "wp6",
+      "wpd",
+      "wpp"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-spss-por": {
+    "comment": "SPSS Portable Data File",
+    "extensions": [
+      "por"
+    ]
+  },
+  "application/x-spss-sav": {
+    "aliases": [
+      "application/x-spss-savefile"
+    ],
+    "comment": "SPSS Data File",
+    "extensions": [
+      "sav",
+      "zsav"
+    ]
+  },
+  "application/x-xbel": {
+    "comment": "XBEL bookmarks",
+    "super_type": "application/xml",
+    "extensions": [
+      "xbel"
+    ],
+    "generic_icon": "text-html"
+  },
+  "application/x-7z-compressed": {
+    "comment": "7-zip archive",
+    "extensions": [
+      "7z"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-abiword": {
+    "comment": "AbiWord document",
+    "super_type": "application/xml",
+    "extensions": [
+      "abw",
+      "abw.CRASHED",
+      "abw.gz",
+      "zabw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cue": {
+    "comment": "CD image cuesheet",
+    "super_type": "text/plain",
+    "extensions": [
+      "cue"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-amipro": {
+    "comment": "Lotus AmiPro document",
+    "extensions": [
+      "sam"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-aportisdoc": {
+    "comment": "AportisDoc document",
+    "super_type": "application/x-palm-database",
+    "extensions": [
+      "pdb",
+      "pdc"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-applix-spreadsheet": {
+    "comment": "Applix Spreadsheets spreadsheet",
+    "extensions": [
+      "as"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-applix-word": {
+    "comment": "Applix Words document",
+    "extensions": [
+      "aw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-arc": {
+    "comment": "ARC archive",
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-archive": {
+    "comment": "AR archive",
+    "extensions": [
+      "a",
+      "ar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-arj": {
+    "comment": "ARJ archive",
+    "extensions": [
+      "arj"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-asp": {
+    "comment": "ASP page",
+    "super_type": "text/plain",
+    "extensions": [
+      "asp"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-awk": {
+    "comment": "AWK script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "awk"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-bcpio": {
+    "comment": "BCPIO document",
+    "extensions": [
+      "bcpio"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-bittorrent": {
+    "comment": "BitTorrent seed file",
+    "extensions": [
+      "torrent"
+    ]
+  },
+  "application/x-blender": {
+    "comment": "Blender scene",
+    "extensions": [
+      "blender",
+      "blend",
+      "BLEND"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-bzdvi": {
+    "comment": "TeX DVI document (bzip-compressed)",
+    "super_type": "application/x-bzip",
+    "extensions": [
+      "dvi.bz2"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-bzip": {
+    "aliases": [
+      "application/x-bzip2"
+    ],
+    "comment": "Bzip archive",
+    "extensions": [
+      "bz2",
+      "bz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-bzip-compressed-tar": {
+    "comment": "Tar archive (bzip-compressed)",
+    "super_type": "application/x-bzip",
+    "extensions": [
+      "tar.bz2",
+      "tar.bz",
+      "tbz2",
+      "tbz",
+      "tb2"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-bzpdf": {
+    "comment": "PDF document (bzip-compressed)",
+    "super_type": "application/x-bzip",
+    "extensions": [
+      "pdf.bz2"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-bzpostscript": {
+    "comment": "PostScript document (bzip-compressed)",
+    "super_type": "application/x-bzip",
+    "extensions": [
+      "ps.bz2"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cbr": {
+    "comment": "comic book archive",
+    "super_type": "application/x-rar",
+    "extensions": [
+      "cbr"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cb7": {
+    "comment": "comic book archive",
+    "super_type": "application/x-7z-compressed",
+    "extensions": [
+      "cb7"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cbt": {
+    "comment": "comic book archive",
+    "super_type": "application/x-tar",
+    "extensions": [
+      "cbt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cbz": {
+    "comment": "comic book archive",
+    "super_type": "application/zip",
+    "extensions": [
+      "cbz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-lrzip": {
+    "comment": "Lrzip archive",
+    "extensions": [
+      "lrz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lrzip-compressed-tar": {
+    "comment": "Tar archive (lrzip-compressed)",
+    "super_type": "application/x-lrzip",
+    "extensions": [
+      "tar.lrz",
+      "tlrz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-apple-diskimage": {
+    "comment": "Apple disk image",
+    "extensions": [
+      "dmg"
+    ]
+  },
+  "application/x-raw-disk-image": {
+    "comment": "Raw disk image",
+    "extensions": [
+      "raw-disk-image",
+      "img"
+    ]
+  },
+  "application/x-raw-disk-image-xz-compressed": {
+    "comment": "Raw disk image (XZ-compressed)",
+    "super_type": "application/x-xz",
+    "extensions": [
+      "raw-disk-image.xz",
+      "img.xz"
+    ]
+  },
+  "application/x-cd-image": {
+    "aliases": [
+      "application/x-iso9660-image"
+    ],
+    "comment": "raw CD image",
+    "super_type": "application/x-raw-disk-image",
+    "extensions": [
+      "iso",
+      "iso9660"
+    ]
+  },
+  "application/x-cdrdao-toc": {
+    "comment": "CD Table Of Contents",
+    "super_type": "text/plain",
+    "extensions": [
+      "toc"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-chess-pgn": {
+    "comment": "PGN chess game notation",
+    "super_type": "text/plain",
+    "extensions": [
+      "pgn"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/vnd.ms-htmlhelp": {
+    "aliases": [
+      "application/x-chm"
+    ],
+    "comment": "CHM document",
+    "extensions": [
+      "chm"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-class-file": {
+    "comment": "Java byte code"
+  },
+  "application/x-compress": {
+    "comment": "UNIX-compressed file",
+    "extensions": [
+      "Z"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-compressed-tar": {
+    "comment": "Tar archive (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "tar.gz",
+      "tgz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-core": {
+    "comment": "program crash data",
+    "extensions": [
+      "re"
+    ]
+  },
+  "application/x-cpio": {
+    "comment": "CPIO archive",
+    "extensions": [
+      "cpio"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-cpio-compressed": {
+    "comment": "CPIO archive (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "cpio.gz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-csh": {
+    "comment": "C shell script",
+    "super_type": "application/x-shellscript",
+    "extensions": [
+      "csh"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-dbf": {
+    "aliases": [
+      "application/x-dbase",
+      "application/dbf",
+      "application/dbase"
+    ],
+    "comment": "Xbase document",
+    "extensions": [
+      "dbf"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/ecmascript": {
+    "aliases": [
+      "text/ecmascript"
+    ],
+    "comment": "ECMAScript program",
+    "super_type": "text/plain",
+    "extensions": [
+      "es"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-dc-rom": {
+    "comment": "Dreamcast ROM",
+    "extensions": [
+      "dc"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-nintendo-ds-rom": {
+    "comment": "Nintendo DS ROM",
+    "extensions": [
+      "nds"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-pc-engine-rom": {
+    "comment": "PC Engine ROM",
+    "extensions": [
+      "pce"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-wii-rom": {
+    "aliases": [
+      "application/x-wii-iso-image",
+      "application/x-wbfs",
+      "application/x-wia"
+    ],
+    "comment": "Wii disc image",
+    "extensions": [
+      "iso"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-gamecube-rom": {
+    "aliases": [
+      "application/x-gamecube-iso-image"
+    ],
+    "comment": "GameCube disc image",
+    "extensions": [
+      "iso"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/vnd.debian.binary-package": {
+    "aliases": [
+      "application/x-deb",
+      "application/x-debian-package"
+    ],
+    "comment": "Debian package",
+    "extensions": [
+      "deb",
+      "udeb"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-designer": {
+    "comment": "Qt Designer file",
+    "super_type": "application/xml",
+    "extensions": [
+      "ui"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "text/x-qml": {
+    "comment": "Qt Markup Language file",
+    "extensions": [
+      "qml",
+      "qmltypes",
+      "qmlproject"
+    ]
+  },
+  "application/x-desktop": {
+    "aliases": [
+      "application/x-gnome-app-info"
+    ],
+    "comment": "desktop configuration file",
+    "super_type": "text/plain",
+    "extensions": [
+      "desktop",
+      "kdelnk"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-fictionbook+xml": {
+    "aliases": [
+      "application/x-fictionbook"
+    ],
+    "comment": "FictionBook document",
+    "super_type": "application/xml",
+    "extensions": [
+      "fb2"
+    ]
+  },
+  "application/x-zip-compressed-fb2": {
+    "comment": "Compressed FictionBook document",
+    "super_type": "application/zip",
+    "extensions": [
+      "fb2.zip"
+    ]
+  },
+  "application/x-dia-diagram": {
+    "comment": "Dia diagram",
+    "super_type": "application/xml",
+    "extensions": [
+      "dia"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-dia-shape": {
+    "comment": "Dia shape",
+    "super_type": "application/xml",
+    "extensions": [
+      "shape"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-dvi": {
+    "comment": "TeX DVI document",
+    "extensions": [
+      "dvi"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-e-theme": {
+    "comment": "Enlightenment theme",
+    "extensions": [
+      "etheme"
+    ]
+  },
+  "application/x-egon": {
+    "comment": "Egon Animator animation",
+    "extensions": [
+      "egon"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-executable": {
+    "comment": "executable",
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-fluid": {
+    "comment": "FLTK Fluid file",
+    "super_type": "text/plain",
+    "extensions": [
+      "fl"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/font-woff": {
+    "comment": "WOFF font",
+    "extensions": [
+      "woff"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-type1": {
+    "comment": "Postscript type-1 font",
+    "super_type": "application/postscript",
+    "extensions": [
+      "pfa",
+      "pfb",
+      "gsf"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-afm": {
+    "comment": "Adobe font metrics",
+    "extensions": [
+      "afm"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-bdf": {
+    "comment": "BDF font",
+    "extensions": [
+      "bdf"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-dos": {
+    "comment": "DOS font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-framemaker": {
+    "comment": "Adobe FrameMaker font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-libgrx": {
+    "comment": "LIBGRX font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-linux-psf": {
+    "comment": "Linux PSF console font",
+    "extensions": [
+      "psf"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-gz-font-linux-psf": {
+    "comment": "Linux PSF console font (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "psf.gz"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-pcf": {
+    "comment": "PCF font",
+    "extensions": [
+      "pcf",
+      "pcf.Z",
+      "pcf.gz"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-otf": {
+    "comment": "OpenType font",
+    "super_type": "application/x-font-ttf",
+    "extensions": [
+      "otf"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-speedo": {
+    "comment": "Speedo font",
+    "extensions": [
+      "spd"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-sunos-news": {
+    "comment": "SunOS News font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-tex": {
+    "comment": "TeX font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-tex-tfm": {
+    "comment": "TeX font metrics",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-ttf": {
+    "comment": "TrueType font",
+    "extensions": [
+      "ttf",
+      "ttc"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-ttx": {
+    "comment": "TrueType XML font",
+    "super_type": "text/xml",
+    "extensions": [
+      "ttx"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-font-vfont": {
+    "comment": "V font",
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-frame": {
+    "comment": "Adobe FrameMaker document",
+    "generic_icon": "x-office-document"
+  },
+  "application/x-gameboy-rom": {
+    "comment": "Game Boy ROM",
+    "extensions": [
+      "gb",
+      "gbc",
+      "cgb",
+      "sgb"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-gba-rom": {
+    "comment": "Game Boy Advance ROM",
+    "extensions": [
+      "gba",
+      "agb"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-gdbm": {
+    "comment": "GDBM database"
+  },
+  "application/x-genesis-rom": {
+    "comment": "Genesis ROM",
+    "extensions": [
+      "gen",
+      "smd",
+      "32x",
+      "mdx"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-gettext-translation": {
+    "comment": "translated messages (machine-readable)",
+    "extensions": [
+      "gmo",
+      "mo"
+    ]
+  },
+  "application/x-gtk-builder": {
+    "comment": "GTK+ Builder",
+    "super_type": "application/xml",
+    "extensions": [
+      "ui"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-glade": {
+    "comment": "Glade project",
+    "super_type": "application/xml",
+    "extensions": [
+      "glade"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-gnucash": {
+    "comment": "GnuCash financial data",
+    "extensions": [
+      "gnucash",
+      "gnc",
+      "xac"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-gnumeric": {
+    "comment": "Gnumeric spreadsheet",
+    "extensions": [
+      "gnumeric"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-gnuplot": {
+    "comment": "Gnuplot document",
+    "super_type": "text/plain",
+    "extensions": [
+      "gp",
+      "gplt",
+      "gnuplot"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-graphite": {
+    "comment": "Graphite scientific graph",
+    "extensions": [
+      "gra"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-gtktalog": {
+    "comment": "GTKtalog catalog",
+    "generic_icon": "x-office-document"
+  },
+  "application/x-gzdvi": {
+    "comment": "TeX DVI document (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "dvi.gz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/gzip": {
+    "aliases": [
+      "application/x-gzip"
+    ],
+    "comment": "Gzip archive",
+    "extensions": [
+      "gz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-gzpdf": {
+    "comment": "PDF document (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "pdf.gz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-gzpostscript": {
+    "comment": "PostScript document (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "ps.gz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-hdf": {
+    "comment": "HDF document",
+    "extensions": [
+      "hdf",
+      "hdf4",
+      "h4",
+      "hdf5",
+      "h5"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-iff": {
+    "comment": "IFF file"
+  },
+  "application/x-ipod-firmware": {
+    "comment": "iPod firmware"
+  },
+  "application/x-java-archive": {
+    "aliases": [
+      "application/x-jar",
+      "application/java-archive"
+    ],
+    "comment": "Java archive",
+    "super_type": "application/zip",
+    "extensions": [
+      "jar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-java": {
+    "aliases": [
+      "application/java",
+      "application/java-byte-code",
+      "application/java-vm",
+      "application/x-java-class",
+      "application/x-java-vm"
+    ],
+    "comment": "Java class",
+    "extensions": [
+      "class"
+    ]
+  },
+  "application/x-java-jnlp-file": {
+    "comment": "JNLP file",
+    "super_type": "application/xml",
+    "extensions": [
+      "jnlp"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-java-keystore": {
+    "comment": "Java keystore",
+    "extensions": [
+      "jks",
+      "ks",
+      "certs"
+    ]
+  },
+  "application/x-java-jce-keystore": {
+    "comment": "Java JCE keystore",
+    "extensions": [
+      "jceks"
+    ]
+  },
+  "application/x-java-pack200": {
+    "comment": "Pack200 Java archive",
+    "extensions": [
+      "pack"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/javascript": {
+    "aliases": [
+      "application/x-javascript",
+      "text/javascript"
+    ],
+    "comment": "JavaScript program",
+    "super_type": "application/ecmascript",
+    "extensions": [
+      "js",
+      "jsm"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/json": {
+    "comment": "JSON document",
+    "super_type": "application/javascript",
+    "extensions": [
+      "json"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-jbuilder-project": {
+    "comment": "JBuilder project",
+    "extensions": [
+      "jpr",
+      "jpx"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-karbon": {
+    "comment": "Karbon14 drawing",
+    "extensions": [
+      "karbon"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-kchart": {
+    "comment": "KChart chart",
+    "extensions": [
+      "chrt"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-kexi-connectiondata": {
+    "comment": "Kexi settings for database server connection",
+    "extensions": [
+      "kexic"
+    ]
+  },
+  "application/x-kexiproject-shortcut": {
+    "comment": "shortcut to Kexi project on database server",
+    "extensions": [
+      "kexis"
+    ]
+  },
+  "application/x-kexiproject-sqlite2": {
+    "comment": "Kexi database file-based project",
+    "super_type": "application/x-sqlite2",
+    "extensions": [
+      "kexi"
+    ]
+  },
+  "application/x-kexiproject-sqlite3": {
+    "aliases": [
+      "application/x-vnd.kde.kexi",
+      "application/x-kexiproject-sqlite"
+    ],
+    "comment": "Kexi database file-based project",
+    "super_type": "application/x-sqlite3",
+    "extensions": [
+      "kexi"
+    ]
+  },
+  "application/x-kformula": {
+    "comment": "KFormula formula",
+    "extensions": [
+      "kfo"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-killustrator": {
+    "comment": "KIllustrator drawing",
+    "extensions": [
+      "kil"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-kivio": {
+    "comment": "Kivio flowchart",
+    "extensions": [
+      "flw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-kontour": {
+    "comment": "Kontour drawing",
+    "extensions": [
+      "kon"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-kpovmodeler": {
+    "comment": "KPovModeler scene",
+    "extensions": [
+      "kpm"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-kpresenter": {
+    "comment": "KPresenter presentation",
+    "extensions": [
+      "kpr",
+      "kpt"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/x-krita": {
+    "comment": "Krita document",
+    "extensions": [
+      "kra"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-kspread": {
+    "comment": "KSpread spreadsheet",
+    "extensions": [
+      "ksp"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-kspread-crypt": {
+    "comment": "KSpread spreadsheet (encrypted)",
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-ksysv-package": {
+    "comment": "KSysV init package",
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-kugar": {
+    "comment": "Kugar document",
+    "extensions": [
+      "kud"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-kword": {
+    "comment": "KWord document",
+    "extensions": [
+      "kwd",
+      "kwt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-kword-crypt": {
+    "comment": "KWord document (encrypted)",
+    "generic_icon": "x-office-document"
+  },
+  "application/x-lha": {
+    "aliases": [
+      "application/x-lzh-compressed"
+    ],
+    "comment": "LHA archive",
+    "extensions": [
+      "lha",
+      "lzh"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lhz": {
+    "comment": "LHZ archive",
+    "extensions": [
+      "lhz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "text/vnd.trolltech.linguist": {
+    "aliases": [
+      "application/x-linguist"
+    ],
+    "comment": "message catalog",
+    "super_type": "application/xml",
+    "extensions": [
+      "ts"
+    ]
+  },
+  "application/x-lyx": {
+    "aliases": [
+      "text/x-lyx"
+    ],
+    "comment": "LyX document",
+    "super_type": "text/plain",
+    "extensions": [
+      "lyx"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-lz4": {
+    "comment": "LZ4 archive",
+    "extensions": [
+      "lz4"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lzip": {
+    "comment": "Lzip archive",
+    "extensions": [
+      "lz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lzma": {
+    "comment": "LZMA archive",
+    "extensions": [
+      "lzma"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lzma-compressed-tar": {
+    "comment": "Tar archive (LZMA-compressed)",
+    "super_type": "application/x-lzma",
+    "extensions": [
+      "tar.lzma",
+      "tlz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-lzop": {
+    "comment": "LZO archive",
+    "extensions": [
+      "lzo"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-qpress": {
+    "comment": "Qpress archive",
+    "extensions": [
+      "qp"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/zlib": {
+    "comment": "Zlib archive",
+    "extensions": [
+      "zz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-magicpoint": {
+    "comment": "MagicPoint presentation",
+    "super_type": "text/plain",
+    "extensions": [
+      "mgp"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/x-macbinary": {
+    "comment": "Macintosh MacBinary file",
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-matroska": {
+    "comment": "Matroska stream",
+    "generic_icon": "video-x-generic"
+  },
+  "video/x-matroska": {
+    "comment": "Matroska video",
+    "super_type": "application/x-matroska",
+    "extensions": [
+      "mkv"
+    ]
+  },
+  "video/x-matroska-3d": {
+    "comment": "Matroska 3D video",
+    "super_type": "application/x-matroska",
+    "extensions": [
+      "mk3d"
+    ]
+  },
+  "audio/x-matroska": {
+    "comment": "Matroska audio",
+    "super_type": "application/x-matroska",
+    "extensions": [
+      "mka"
+    ]
+  },
+  "video/webm": {
+    "comment": "WebM video",
+    "extensions": [
+      "webm"
+    ]
+  },
+  "audio/webm": {
+    "comment": "WebM audio",
+    "super_type": "video/webm"
+  },
+  "application/x-mimearchive": {
+    "comment": "MHTML web archive",
+    "super_type": "multipart/related",
+    "extensions": [
+      "mhtml",
+      "mht"
+    ]
+  },
+  "application/mxf": {
+    "comment": "MXF video",
+    "extensions": [
+      "mxf"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "text/x-ocl": {
+    "comment": "OCL file",
+    "super_type": "text/plain",
+    "extensions": [
+      "ocl"
+    ]
+  },
+  "text/x-cobol": {
+    "comment": "COBOL source file",
+    "super_type": "text/plain",
+    "extensions": [
+      "cbl",
+      "cob"
+    ]
+  },
+  "application/x-mobipocket-ebook": {
+    "comment": "Mobipocket e-book",
+    "super_type": "application/x-palm-database",
+    "extensions": [
+      "mobi",
+      "prc"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-mif": {
+    "comment": "Adobe FrameMaker MIF document",
+    "extensions": [
+      "mif"
+    ]
+  },
+  "application/x-mozilla-bookmarks": {
+    "aliases": [
+      "application/x-netscape-bookmarks"
+    ],
+    "comment": "Mozilla bookmarks",
+    "super_type": "text/html",
+    "generic_icon": "text-html"
+  },
+  "application/x-ms-dos-executable": {
+    "comment": "DOS/Windows executable",
+    "extensions": [
+      "exe"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-mswinurl": {
+    "comment": "Internet shortcut",
+    "extensions": [
+      "url"
+    ]
+  },
+  "application/x-mswrite": {
+    "comment": "WRI document",
+    "extensions": [
+      "wri"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-msx-rom": {
+    "comment": "MSX ROM",
+    "extensions": [
+      "msx"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-m4": {
+    "comment": "M4 macro",
+    "super_type": "text/plain",
+    "extensions": [
+      "m4"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-n64-rom": {
+    "comment": "Nintendo64 ROM",
+    "extensions": [
+      "n64",
+      "z64",
+      "v64"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-nautilus-link": {
+    "comment": "Nautilus link",
+    "super_type": "text/plain",
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-nes-rom": {
+    "comment": "NES ROM",
+    "extensions": [
+      "nes",
+      "nez",
+      "unf",
+      "unif"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-netcdf": {
+    "comment": "Unidata NetCDF document",
+    "extensions": [
+      "cdf",
+      "nc"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-nzb": {
+    "comment": "NewzBin usenet index",
+    "super_type": "application/xml",
+    "extensions": [
+      "nzb"
+    ]
+  },
+  "application/x-object": {
+    "comment": "object code",
+    "extensions": [
+      "o"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/annodex": {
+    "aliases": [
+      "application/x-annodex"
+    ],
+    "comment": "Annodex exchange format",
+    "extensions": [
+      "anx"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "video/annodex": {
+    "aliases": [
+      "video/x-annodex"
+    ],
+    "comment": "Annodex Video",
+    "super_type": "application/annodex",
+    "extensions": [
+      "axv"
+    ]
+  },
+  "audio/annodex": {
+    "aliases": [
+      "audio/x-annodex"
+    ],
+    "comment": "Annodex Audio",
+    "super_type": "application/annodex",
+    "extensions": [
+      "axa"
+    ]
+  },
+  "application/ogg": {
+    "aliases": [
+      "application/x-ogg"
+    ],
+    "comment": "Ogg multimedia file",
+    "extensions": [
+      "ogx"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "audio/ogg": {
+    "aliases": [
+      "audio/x-ogg"
+    ],
+    "comment": "Ogg Audio",
+    "super_type": "application/ogg",
+    "extensions": [
+      "oga",
+      "ogg",
+      "opus"
+    ]
+  },
+  "video/ogg": {
+    "aliases": [
+      "video/x-ogg"
+    ],
+    "comment": "Ogg Video",
+    "super_type": "application/ogg",
+    "extensions": [
+      "ogv",
+      "ogg"
+    ]
+  },
+  "audio/x-vorbis+ogg": {
+    "aliases": [
+      "audio/vorbis",
+      "audio/x-vorbis"
+    ],
+    "comment": "Ogg Vorbis audio",
+    "super_type": "audio/ogg",
+    "extensions": [
+      "oga",
+      "ogg"
+    ]
+  },
+  "audio/x-flac+ogg": {
+    "aliases": [
+      "audio/x-oggflac"
+    ],
+    "comment": "Ogg FLAC audio",
+    "super_type": "audio/ogg",
+    "extensions": [
+      "oga",
+      "ogg"
+    ]
+  },
+  "audio/x-opus+ogg": {
+    "comment": "Opus audio",
+    "super_type": "audio/ogg",
+    "extensions": [
+      "opus"
+    ]
+  },
+  "audio/x-speex+ogg": {
+    "comment": "Ogg Speex audio",
+    "super_type": "audio/ogg",
+    "extensions": [
+      "oga",
+      "ogg"
+    ]
+  },
+  "audio/x-speex": {
+    "comment": "Speex audio",
+    "extensions": [
+      "spx"
+    ]
+  },
+  "video/x-theora+ogg": {
+    "aliases": [
+      "video/x-theora"
+    ],
+    "comment": "Ogg Theora video",
+    "super_type": "video/ogg",
+    "extensions": [
+      "ogg"
+    ]
+  },
+  "video/x-ogm+ogg": {
+    "aliases": [
+      "video/x-ogm"
+    ],
+    "comment": "OGM video",
+    "super_type": "video/ogg",
+    "extensions": [
+      "ogm"
+    ]
+  },
+  "application/x-ole-storage": {
+    "comment": "OLE2 compound document storage",
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.ms-publisher": {
+    "comment": "Microsoft Publisher document",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "pub"
+    ]
+  },
+  "application/x-msi": {
+    "comment": "Windows Installer package",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "msi"
+    ]
+  },
+  "application/x-oleo": {
+    "comment": "GNU Oleo spreadsheet",
+    "extensions": [
+      "oleo"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-pak": {
+    "comment": "PAK archive",
+    "extensions": [
+      "pak"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/vnd.palm": {
+    "aliases": [
+      "application/x-palm-database"
+    ],
+    "comment": "Palm OS database",
+    "extensions": [
+      "prc",
+      "pdb",
+      "pqa",
+      "oprc"
+    ]
+  },
+  "application/x-par2": {
+    "comment": "Parchive archive",
+    "extensions": [
+      "PAR2",
+      "par2"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-pef-executable": {
+    "comment": "PEF executable",
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-perl": {
+    "comment": "Perl script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "pl",
+      "PL",
+      "pm",
+      "al",
+      "perl",
+      "pod",
+      "t"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-php": {
+    "comment": "PHP script",
+    "super_type": "text/plain",
+    "extensions": [
+      "php",
+      "php3",
+      "php4",
+      "php5",
+      "phps"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-pkcs7-certificates": {
+    "comment": "PKCS#7 certificate bundle",
+    "extensions": [
+      "p7b",
+      "spc"
+    ]
+  },
+  "application/x-pkcs12": {
+    "comment": "PKCS#12 certificate bundle",
+    "extensions": [
+      "p12",
+      "pfx"
+    ]
+  },
+  "application/x-planperfect": {
+    "comment": "PlanPerfect spreadsheet",
+    "extensions": [
+      "pln"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-pocket-word": {
+    "comment": "Pocket Word document",
+    "extensions": [
+      "psw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-profile": {
+    "comment": "profiler results",
+    "super_type": "text/plain",
+    "extensions": [
+      "on.out"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-pw": {
+    "comment": "Pathetic Writer document",
+    "extensions": [
+      "pw"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-python-bytecode": {
+    "comment": "Python bytecode",
+    "extensions": [
+      "pyc",
+      "pyo"
+    ]
+  },
+  "application/x-qtiplot": {
+    "comment": "QtiPlot document",
+    "super_type": "text/plain",
+    "extensions": [
+      "qti",
+      "qti.gz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-quattropro": {
+    "comment": "Quattro Pro spreadsheet",
+    "extensions": [
+      "wb1",
+      "wb2",
+      "wb3"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-quicktime-media-link": {
+    "aliases": [
+      "application/x-quicktimeplayer"
+    ],
+    "comment": "QuickTime metalink playlist",
+    "super_type": "video/quicktime",
+    "extensions": [
+      "qtl"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "application/x-qw": {
+    "comment": "Quicken document",
+    "extensions": [
+      "qif"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-rar": {
+    "aliases": [
+      "application/x-rar-compressed"
+    ],
+    "comment": "RAR archive",
+    "extensions": [
+      "rar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-dar": {
+    "comment": "DAR archive",
+    "extensions": [
+      "dar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-alz": {
+    "comment": "Alzip archive",
+    "extensions": [
+      "alz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "text/x-reject": {
+    "aliases": [
+      "application/x-reject"
+    ],
+    "comment": "rejected patch",
+    "super_type": "text/plain",
+    "extensions": [
+      "rej"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-rpm": {
+    "aliases": [
+      "application/x-redhat-package-manager"
+    ],
+    "comment": "RPM package",
+    "extensions": [
+      "rpm"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-source-rpm": {
+    "comment": "Source RPM package",
+    "super_type": "application/x-rpm",
+    "extensions": [
+      "src.rpm",
+      "spm"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-ruby": {
+    "comment": "Ruby script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "rb"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-markaby": {
+    "comment": "Markaby script",
+    "super_type": "application/x-ruby",
+    "extensions": [
+      "mab"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-sc": {
+    "comment": "SC/Xspread spreadsheet",
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-shar": {
+    "comment": "shell archive",
+    "extensions": [
+      "shar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-shared-library-la": {
+    "comment": "libtool shared library",
+    "super_type": "text/plain",
+    "extensions": [
+      "la"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/x-sharedlib": {
+    "comment": "shared library",
+    "extensions": [
+      "so"
+    ]
+  },
+  "application/x-shellscript": {
+    "aliases": [
+      "text/x-sh"
+    ],
+    "comment": "shell script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "sh"
+    ],
+    "generic_icon": "text-x-script"
+  },
+  "application/vnd.adobe.flash.movie": {
+    "aliases": [
+      "application/x-shockwave-flash",
+      "application/futuresplash"
+    ],
+    "comment": "Shockwave Flash file",
+    "extensions": [
+      "swf",
+      "spl"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "application/x-shorten": {
+    "comment": "Shorten audio",
+    "extensions": [
+      "shn"
+    ],
+    "generic_icon": "audio-x-generic"
+  },
+  "application/x-siag": {
+    "comment": "Siag spreadsheet",
+    "extensions": [
+      "siag"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "image/x-skencil": {
+    "comment": "Skencil document",
+    "extensions": [
+      "sk",
+      "sk1"
+    ]
+  },
+  "application/x-slp": {
+    "comment": "Stampede package",
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-sms-rom": {
+    "comment": "Sega Master System/Game Gear ROM",
+    "extensions": [
+      "sms",
+      "gg",
+      "sg"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/vnd.nintendo.snes.rom": {
+    "aliases": [
+      "application/x-snes-rom"
+    ],
+    "comment": "Super NES ROM",
+    "extensions": [
+      "sfc",
+      "smc"
+    ],
+    "generic_icon": "application-x-executable"
+  },
+  "application/x-stuffit": {
+    "aliases": [
+      "application/stuffit",
+      "application/x-sit"
+    ],
+    "comment": "StuffIt archive",
+    "extensions": [
+      "sit"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-subrip": {
+    "aliases": [
+      "application/x-srt"
+    ],
+    "comment": "SubRip subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "srt"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "text/vtt": {
+    "comment": "WebVTT subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "vtt"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-sami": {
+    "comment": "SAMI subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "smi",
+      "sami"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "text/x-microdvd": {
+    "comment": "MicroDVD subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "sub"
+    ]
+  },
+  "text/x-mpsub": {
+    "comment": "MPSub subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "sub"
+    ]
+  },
+  "text/x-ssa": {
+    "comment": "SSA subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "ssa",
+      "ass"
+    ]
+  },
+  "text/x-subviewer": {
+    "comment": "SubViewer subtitles",
+    "super_type": "text/plain",
+    "extensions": [
+      "sub"
+    ]
+  },
+  "text/x-iMelody": {
+    "aliases": [
+      "audio/x-iMelody",
+      "audio/iMelody"
+    ],
+    "comment": "iMelody ringtone",
+    "extensions": [
+      "imy",
+      "ime"
+    ]
+  },
+  "application/x-smaf": {
+    "aliases": [
+      "application/vnd.smaf"
+    ],
+    "comment": "SMAF audio",
+    "extensions": [
+      "mmf",
+      "smaf"
+    ],
+    "generic_icon": "audio-x-generic"
+  },
+  "text/x-mrml": {
+    "comment": "MRML playlist",
+    "extensions": [
+      "mrml",
+      "mrl"
+    ]
+  },
+  "audio/x-xmf": {
+    "aliases": [
+      "audio/xmf",
+      "audio/mobile-xmf"
+    ],
+    "comment": "XMF audio",
+    "extensions": [
+      "xmf"
+    ]
+  },
+  "application/x-sv4cpio": {
+    "comment": "SV4 CPIO archive",
+    "extensions": [
+      "sv4cpio"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-sv4crc": {
+    "comment": "SV4 CPIO archive (with CRC)",
+    "extensions": [
+      "sv4crc"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-tar": {
+    "aliases": [
+      "application/x-gtar"
+    ],
+    "comment": "Tar archive",
+    "extensions": [
+      "tar",
+      "gtar",
+      "gem"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-tarz": {
+    "comment": "Tar archive (compressed)",
+    "super_type": "application/x-compress",
+    "extensions": [
+      "tar.Z",
+      "taz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-tex-gf": {
+    "comment": "generic font file",
+    "extensions": [
+      "gf"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-tex-pk": {
+    "comment": "packed font file",
+    "extensions": [
+      "pk"
+    ],
+    "generic_icon": "font-x-generic"
+  },
+  "application/x-tgif": {
+    "comment": "TGIF document",
+    "extensions": [
+      "obj"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-theme": {
+    "comment": "theme",
+    "super_type": "application/x-desktop",
+    "extensions": [
+      "theme"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-toutdoux": {
+    "comment": "ToutDoux document",
+    "generic_icon": "x-office-document"
+  },
+  "application/x-trash": {
+    "comment": "backup file",
+    "extensions": [
+      "",
+      "",
+      "bak",
+      "old",
+      "sik"
+    ]
+  },
+  "text/troff": {
+    "aliases": [
+      "application/x-troff",
+      "text/x-troff"
+    ],
+    "comment": "Troff document",
+    "super_type": "text/plain",
+    "extensions": [
+      "tr",
+      "roff",
+      "t"
+    ]
+  },
+  "application/x-troff-man": {
+    "comment": "Troff document (with manpage macros)",
+    "super_type": "text/plain",
+    "extensions": [
+      "man"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-troff-man-compressed": {
+    "comment": "manual page (compressed)",
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-tzo": {
+    "comment": "Tar archive (LZO-compressed)",
+    "super_type": "application/x-lzop",
+    "extensions": [
+      "tar.lzo",
+      "tzo"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-xz": {
+    "comment": "XZ archive",
+    "extensions": [
+      "xz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-xz-compressed-tar": {
+    "comment": "Tar archive (XZ-compressed)",
+    "super_type": "application/x-xz",
+    "extensions": [
+      "tar.xz",
+      "txz"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-xzpdf": {
+    "comment": "PDF document (XZ-compressed)",
+    "super_type": "application/x-xz",
+    "extensions": [
+      "pdf.xz"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-ustar": {
+    "comment": "Ustar archive",
+    "extensions": [
+      "ustar"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-wais-source": {
+    "comment": "WAIS source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "src"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-wpg": {
+    "comment": "WordPerfect/Drawperfect image",
+    "extensions": [
+      "wpg"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-x509-ca-cert": {
+    "comment": "DER/PEM/Netscape-encoded X.509 certificate",
+    "extensions": [
+      "der",
+      "crt",
+      "cert",
+      "pem"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-zerosize": {
+    "comment": "empty document"
+  },
+  "application/x-zoo": {
+    "comment": "Zoo archive",
+    "extensions": [
+      "zoo"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/xhtml+xml": {
+    "comment": "XHTML page",
+    "super_type": "application/xml",
+    "extensions": [
+      "xhtml"
+    ],
+    "generic_icon": "text-html"
+  },
+  "application/zip": {
+    "aliases": [
+      "application/x-zip-compressed",
+      "application/x-zip"
+    ],
+    "comment": "Zip archive",
+    "extensions": [
+      "zip"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/x-ms-wim": {
+    "comment": "Windows Imaging Format Disk Image",
+    "extensions": [
+      "wim",
+      "swm"
+    ]
+  },
+  "audio/ac3": {
+    "comment": "Dolby Digital audio",
+    "extensions": [
+      "ac3"
+    ]
+  },
+  "audio/vnd.dts": {
+    "aliases": [
+      "audio/x-dts"
+    ],
+    "comment": "DTS audio",
+    "extensions": [
+      "dts"
+    ]
+  },
+  "audio/vnd.dts.hd": {
+    "aliases": [
+      "audio/x-dtshd"
+    ],
+    "comment": "DTSHD audio",
+    "super_type": "audio/vnd.dts",
+    "extensions": [
+      "dtshd"
+    ]
+  },
+  "audio/AMR": {
+    "comment": "AMR audio",
+    "extensions": [
+      "amr"
+    ]
+  },
+  "audio/AMR-WB": {
+    "comment": "AMR-WB audio",
+    "extensions": [
+      "awb"
+    ]
+  },
+  "audio/basic": {
+    "comment": "ULAW (Sun) audio",
+    "extensions": [
+      "au",
+      "snd"
+    ]
+  },
+  "audio/prs.sid": {
+    "comment": "Commodore 64 audio",
+    "extensions": [
+      "sid",
+      "psid"
+    ]
+  },
+  "audio/x-adpcm": {
+    "comment": "PCM audio"
+  },
+  "audio/x-aifc": {
+    "aliases": [
+      "audio/x-aiffc"
+    ],
+    "comment": "AIFC audio",
+    "super_type": "application/x-iff",
+    "extensions": [
+      "aifc",
+      "aiffc"
+    ]
+  },
+  "audio/x-aiff": {
+    "comment": "AIFF/Amiga/Mac audio",
+    "super_type": "application/x-iff",
+    "extensions": [
+      "aiff",
+      "aif"
+    ]
+  },
+  "audio/x-ape": {
+    "comment": "Monkey's audio",
+    "extensions": [
+      "ape"
+    ]
+  },
+  "audio/x-it": {
+    "comment": "Impulse Tracker audio",
+    "extensions": [
+      "it"
+    ]
+  },
+  "audio/flac": {
+    "aliases": [
+      "audio/x-flac"
+    ],
+    "comment": "FLAC audio",
+    "extensions": [
+      "flac"
+    ]
+  },
+  "audio/x-wavpack": {
+    "comment": "WavPack audio",
+    "extensions": [
+      "wv",
+      "wvp"
+    ]
+  },
+  "audio/x-wavpack-correction": {
+    "comment": "WavPack audio correction file",
+    "extensions": [
+      "wvc"
+    ]
+  },
+  "audio/midi": {
+    "aliases": [
+      "audio/x-midi"
+    ],
+    "comment": "MIDI audio",
+    "extensions": [
+      "mid",
+      "midi",
+      "kar"
+    ]
+  },
+  "audio/x-mo3": {
+    "comment": "compressed Tracker audio",
+    "extensions": [
+      "mo3"
+    ]
+  },
+  "audio/aac": {
+    "comment": "AAC audio",
+    "extensions": [
+      "aac"
+    ]
+  },
+  "audio/mp4": {
+    "aliases": [
+      "audio/x-m4a"
+    ],
+    "comment": "MPEG-4 audio",
+    "extensions": [
+      "m4a",
+      "f4a"
+    ]
+  },
+  "video/mp4": {
+    "aliases": [
+      "video/mp4v-es",
+      "video/x-m4v"
+    ],
+    "comment": "MPEG-4 video",
+    "extensions": [
+      "mp4",
+      "m4v",
+      "f4v",
+      "lrv"
+    ]
+  },
+  "audio/x-m4b": {
+    "comment": "MPEG-4 audio book",
+    "super_type": "audio/mp4",
+    "extensions": [
+      "m4b",
+      "f4b"
+    ]
+  },
+  "video/3gpp": {
+    "aliases": [
+      "video/3gp",
+      "audio/3gpp",
+      "video/3gpp-encrypted",
+      "audio/3gpp-encrypted",
+      "audio/amr",
+      "audio/amr-encrypted",
+      "audio/amr-wb",
+      "audio/amr-wb-encrypted",
+      "audio/x-rn-3gpp-amr",
+      "audio/x-rn-3gpp-amr-encrypted",
+      "audio/x-rn-3gpp-amr-wb",
+      "audio/x-rn-3gpp-amr-wb-encrypted"
+    ],
+    "comment": "3GPP multimedia file",
+    "super_type": "video/mp4",
+    "extensions": [
+      "3gp",
+      "3gpp",
+      "3ga"
+    ]
+  },
+  "video/3gpp2": {
+    "aliases": [
+      "audio/3gpp2"
+    ],
+    "comment": "3GPP2 multimedia file",
+    "super_type": "video/mp4",
+    "extensions": [
+      "3g2",
+      "3gp2",
+      "3gpp2"
+    ]
+  },
+  "audio/x-mod": {
+    "comment": "Amiga SoundTracker audio",
+    "extensions": [
+      "mod",
+      "ult",
+      "uni",
+      "m15",
+      "mtm",
+      "669",
+      "med"
+    ]
+  },
+  "audio/mp2": {
+    "aliases": [
+      "audio/x-mp2"
+    ],
+    "comment": "MP2 audio",
+    "extensions": [
+      "mp2"
+    ]
+  },
+  "audio/mpeg": {
+    "aliases": [
+      "audio/x-mp3",
+      "audio/x-mpeg",
+      "audio/mp3"
+    ],
+    "comment": "MP3 audio",
+    "extensions": [
+      "mp3",
+      "mpga"
+    ]
+  },
+  "audio/x-mpegurl": {
+    "aliases": [
+      "audio/mpegurl",
+      "application/m3u",
+      "audio/x-mp3-playlist",
+      "audio/m3u",
+      "audio/x-m3u"
+    ],
+    "comment": "MP3 audio (streamed)",
+    "super_type": "text/plain",
+    "extensions": [
+      "m3u",
+      "m3u8",
+      "vlc"
+    ]
+  },
+  "application/vnd.apple.mpegurl": {
+    "comment": "HTTP Live Streaming playlist",
+    "extensions": [
+      "m3u",
+      "m3u8"
+    ]
+  },
+  "audio/x-ms-asx": {
+    "aliases": [
+      "video/x-ms-wvx",
+      "video/x-ms-wax",
+      "video/x-ms-wmx",
+      "application/x-ms-asx"
+    ],
+    "comment": "Microsoft ASX playlist",
+    "extensions": [
+      "asx",
+      "wax",
+      "wvx",
+      "wmx"
+    ]
+  },
+  "audio/x-psf": {
+    "comment": "PSF audio",
+    "extensions": [
+      "psf"
+    ]
+  },
+  "audio/x-minipsf": {
+    "comment": "MiniPSF audio",
+    "super_type": "audio/x-psf",
+    "extensions": [
+      "minipsf"
+    ]
+  },
+  "audio/x-psflib": {
+    "comment": "PSFlib audio library",
+    "super_type": "audio/x-psf",
+    "extensions": [
+      "psflib"
+    ]
+  },
+  "audio/x-ms-wma": {
+    "aliases": [
+      "audio/wma"
+    ],
+    "comment": "Windows Media audio",
+    "super_type": "application/vnd.ms-asf",
+    "extensions": [
+      "wma"
+    ]
+  },
+  "audio/x-musepack": {
+    "comment": "Musepack audio",
+    "extensions": [
+      "mpc",
+      "mpp",
+      "mp+"
+    ]
+  },
+  "audio/vnd.rn-realaudio": {
+    "aliases": [
+      "audio/x-pn-realaudio",
+      "audio/vnd.m-realaudio"
+    ],
+    "comment": "RealAudio document",
+    "extensions": [
+      "ra",
+      "rax"
+    ]
+  },
+  "application/ram": {
+    "comment": "RealMedia Metafile",
+    "extensions": [
+      "ram"
+    ]
+  },
+  "video/vnd.rn-realvideo": {
+    "aliases": [
+      "video/x-real-video"
+    ],
+    "comment": "RealVideo document",
+    "extensions": [
+      "rv",
+      "rvx"
+    ]
+  },
+  "application/vnd.rn-realmedia": {
+    "comment": "RealMedia document",
+    "extensions": [
+      "rm",
+      "rmj",
+      "rmm",
+      "rms",
+      "rmx",
+      "rmvb"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "image/vnd.rn-realpix": {
+    "comment": "RealPix document",
+    "extensions": [
+      "rp"
+    ]
+  },
+  "text/vnd.rn-realtext": {
+    "comment": "RealText document",
+    "extensions": [
+      "rt"
+    ]
+  },
+  "audio/x-riff": {
+    "comment": "RIFF audio"
+  },
+  "application/x-riff": {
+    "comment": "RIFF container"
+  },
+  "audio/x-s3m": {
+    "comment": "Scream Tracker 3 audio",
+    "extensions": [
+      "s3m"
+    ]
+  },
+  "audio/x-scpls": {
+    "aliases": [
+      "application/pls"
+    ],
+    "comment": "MP3 ShoutCast playlist",
+    "extensions": [
+      "pls"
+    ]
+  },
+  "audio/x-stm": {
+    "comment": "Scream Tracker audio",
+    "extensions": [
+      "stm"
+    ]
+  },
+  "audio/x-voc": {
+    "comment": "VOC audio",
+    "extensions": [
+      "voc"
+    ]
+  },
+  "audio/x-wav": {
+    "aliases": [
+      "audio/wav",
+      "audio/vnd.wave"
+    ],
+    "comment": "WAV audio",
+    "extensions": [
+      "wav"
+    ]
+  },
+  "audio/x-xi": {
+    "comment": "Scream Tracker instrument",
+    "extensions": [
+      "xi"
+    ]
+  },
+  "audio/x-xm": {
+    "comment": "FastTracker II audio",
+    "extensions": [
+      "xm"
+    ]
+  },
+  "audio/x-tta": {
+    "aliases": [
+      "audio/tta"
+    ],
+    "comment": "TrueAudio audio",
+    "extensions": [
+      "tta"
+    ]
+  },
+  "image/bmp": {
+    "aliases": [
+      "image/x-bmp",
+      "image/x-MS-bmp"
+    ],
+    "comment": "Windows BMP image",
+    "extensions": [
+      "bmp"
+    ]
+  },
+  "image/vnd.wap.wbmp": {
+    "comment": "WBMP image",
+    "extensions": [
+      "wbmp"
+    ]
+  },
+  "image/cgm": {
+    "comment": "Computer Graphics Metafile",
+    "extensions": [
+      "cgm"
+    ]
+  },
+  "image/fax-g3": {
+    "comment": "CCITT G3 fax",
+    "extensions": [
+      "g3"
+    ]
+  },
+  "image/g3fax": {
+    "comment": "G3 fax image"
+  },
+  "image/gif": {
+    "comment": "GIF image",
+    "extensions": [
+      "gif"
+    ]
+  },
+  "image/ief": {
+    "comment": "IEF image",
+    "extensions": [
+      "ief"
+    ]
+  },
+  "image/jpeg": {
+    "aliases": [
+      "image/pjpeg"
+    ],
+    "comment": "JPEG image",
+    "extensions": [
+      "jpeg",
+      "jpg",
+      "jpe"
+    ]
+  },
+  "image/jp2": {
+    "aliases": [
+      "image/jpeg2000",
+      "image/jpx",
+      "image/jpeg2000-image",
+      "image/x-jpeg2000-image"
+    ],
+    "comment": "JPEG-2000 image",
+    "extensions": [
+      "jp2",
+      "jpx",
+      "jpf"
+    ]
+  },
+  "image/openraster": {
+    "comment": "OpenRaster archiving image",
+    "extensions": [
+      "ora"
+    ]
+  },
+  "image/x-dds": {
+    "comment": "DirectDraw surface",
+    "extensions": [
+      "dds"
+    ]
+  },
+  "image/x-xcursor": {
+    "comment": "X11 cursor"
+  },
+  "image/x-exr": {
+    "comment": "EXR image",
+    "extensions": [
+      "exr"
+    ]
+  },
+  "image/x-pict": {
+    "comment": "Macintosh Quickdraw/PICT drawing",
+    "extensions": [
+      "pct",
+      "pict",
+      "pict1",
+      "pict2"
+    ]
+  },
+  "application/x-ufraw": {
+    "comment": "UFRaw ID image",
+    "super_type": "text/xml",
+    "extensions": [
+      "ufraw"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "image/x-dcraw": {
+    "comment": "digital raw image"
+  },
+  "image/x-adobe-dng": {
+    "comment": "Adobe DNG negative",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "dng"
+    ]
+  },
+  "image/x-canon-crw": {
+    "comment": "Canon CRW raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "crw"
+    ]
+  },
+  "image/x-canon-cr2": {
+    "comment": "Canon CR2 raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "cr2"
+    ]
+  },
+  "image/x-fuji-raf": {
+    "comment": "Fuji RAF raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "raf"
+    ]
+  },
+  "image/x-kodak-dcr": {
+    "comment": "Kodak DCR raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "dcr"
+    ]
+  },
+  "image/x-kodak-k25": {
+    "comment": "Kodak K25 raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "k25"
+    ]
+  },
+  "image/x-kodak-kdc": {
+    "comment": "Kodak KDC raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "kdc"
+    ]
+  },
+  "image/x-minolta-mrw": {
+    "comment": "Minolta MRW raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "mrw"
+    ]
+  },
+  "image/x-nikon-nef": {
+    "comment": "Nikon NEF raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "nef"
+    ]
+  },
+  "image/x-olympus-orf": {
+    "comment": "Olympus ORF raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "orf"
+    ]
+  },
+  "image/x-panasonic-raw": {
+    "comment": "Panasonic raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "raw"
+    ]
+  },
+  "image/x-panasonic-raw2": {
+    "comment": "Panasonic raw2 image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "rw2"
+    ]
+  },
+  "image/x-pentax-pef": {
+    "comment": "Pentax PEF raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "pef"
+    ]
+  },
+  "image/x-sigma-x3f": {
+    "comment": "Sigma X3F raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "x3f"
+    ]
+  },
+  "image/x-sony-srf": {
+    "comment": "Sony SRF raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "srf"
+    ]
+  },
+  "image/x-sony-sr2": {
+    "comment": "Sony SR2 raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "sr2"
+    ]
+  },
+  "image/x-sony-arw": {
+    "comment": "Sony ARW raw image",
+    "super_type": "image/x-dcraw",
+    "extensions": [
+      "arw"
+    ]
+  },
+  "image/png": {
+    "comment": "PNG image",
+    "extensions": [
+      "png"
+    ]
+  },
+  "image/rle": {
+    "comment": "Run Length Encoded bitmap image",
+    "extensions": [
+      "rle"
+    ]
+  },
+  "image/svg+xml": {
+    "comment": "SVG image",
+    "super_type": "application/xml",
+    "extensions": [
+      "svg"
+    ]
+  },
+  "image/svg+xml-compressed": {
+    "comment": "compressed SVG image",
+    "super_type": "application/gzip",
+    "extensions": [
+      "svgz"
+    ]
+  },
+  "image/tiff": {
+    "comment": "TIFF image",
+    "extensions": [
+      "tif",
+      "tiff"
+    ]
+  },
+  "image/x-tiff-multipage": {
+    "comment": "Multi-page TIFF image",
+    "super_type": "image/tiff"
+  },
+  "image/vnd.dwg": {
+    "comment": "AutoCAD image",
+    "extensions": [
+      "dwg"
+    ]
+  },
+  "image/vnd.dxf": {
+    "comment": "DXF vector image",
+    "extensions": [
+      "dxf"
+    ]
+  },
+  "image/vnd.ms-modi": {
+    "comment": "Microsoft Document Imaging format",
+    "extensions": [
+      "mdi"
+    ]
+  },
+  "image/webp": {
+    "comment": "WebP image",
+    "extensions": [
+      "webp"
+    ]
+  },
+  "image/x-3ds": {
+    "comment": "3D Studio image",
+    "extensions": [
+      "3ds"
+    ]
+  },
+  "image/x-applix-graphics": {
+    "comment": "Applix Graphics image",
+    "extensions": [
+      "ag"
+    ]
+  },
+  "image/x-bzeps": {
+    "comment": "EPS image (bzip-compressed)",
+    "super_type": "application/x-bzip",
+    "extensions": [
+      "eps.bz2",
+      "epsi.bz2",
+      "epsf.bz2"
+    ]
+  },
+  "image/x-cmu-raster": {
+    "comment": "CMU raster image",
+    "extensions": [
+      "ras"
+    ]
+  },
+  "image/x-compressed-xcf": {
+    "comment": "compressed GIMP image",
+    "extensions": [
+      "xcf.gz",
+      "xcf.bz2"
+    ]
+  },
+  "application/dicom": {
+    "comment": "DICOM image",
+    "extensions": [
+      "comdir",
+      "dcm"
+    ],
+    "generic_icon": "image-x-generic"
+  },
+  "application/x-docbook+xml": {
+    "aliases": [
+      "application/docbook+xml",
+      "application/vnd.oasis.docbook+xml"
+    ],
+    "comment": "DocBook document",
+    "super_type": "application/xml",
+    "extensions": [
+      "dbk",
+      "docbook"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "image/x-dib": {
+    "comment": "DIB image"
+  },
+  "image/vnd.djvu": {
+    "aliases": [
+      "image/x-djvu",
+      "image/x.djvu"
+    ],
+    "comment": "DjVu image",
+    "extensions": [
+      "djvu",
+      "djv"
+    ]
+  },
+  "image/dpx": {
+    "comment": "DPX image"
+  },
+  "image/x-eps": {
+    "comment": "EPS image",
+    "super_type": "application/postscript",
+    "extensions": [
+      "eps",
+      "epsi",
+      "epsf"
+    ]
+  },
+  "image/fits": {
+    "aliases": [
+      "image/x-fits"
+    ],
+    "comment": "FITS document",
+    "extensions": [
+      "fits"
+    ]
+  },
+  "image/x-fpx": {
+    "comment": "FPX image"
+  },
+  "image/x-gzeps": {
+    "comment": "EPS image (gzip-compressed)",
+    "super_type": "application/gzip",
+    "extensions": [
+      "eps.gz",
+      "epsi.gz",
+      "epsf.gz"
+    ]
+  },
+  "image/vnd.microsoft.icon": {
+    "aliases": [
+      "application/ico",
+      "image/ico",
+      "image/icon",
+      "image/x-ico",
+      "image/x-icon",
+      "text/ico"
+    ],
+    "comment": "Windows icon",
+    "extensions": [
+      "ico"
+    ]
+  },
+  "image/x-icns": {
+    "comment": "MacOS X icon",
+    "extensions": [
+      "icns"
+    ]
+  },
+  "image/x-ilbm": {
+    "aliases": [
+      "image/x-iff"
+    ],
+    "comment": "ILBM image",
+    "super_type": "application/x-iff",
+    "extensions": [
+      "iff",
+      "ilbm",
+      "lbm"
+    ]
+  },
+  "image/x-jng": {
+    "comment": "JNG image",
+    "extensions": [
+      "jng"
+    ]
+  },
+  "image/x-lwo": {
+    "comment": "LightWave object",
+    "extensions": [
+      "lwo",
+      "lwob"
+    ]
+  },
+  "image/x-lws": {
+    "comment": "LightWave scene",
+    "extensions": [
+      "lws"
+    ]
+  },
+  "image/x-macpaint": {
+    "comment": "MacPaint Bitmap image",
+    "extensions": [
+      "pntg"
+    ]
+  },
+  "image/x-msod": {
+    "comment": "Office drawing",
+    "extensions": [
+      "msod"
+    ]
+  },
+  "image/x-niff": {
+    "comment": "NIFF image"
+  },
+  "image/vnd.zbrush.pcx": {
+    "aliases": [
+      "image/x-pcx"
+    ],
+    "comment": "PCX image",
+    "extensions": [
+      "pcx"
+    ]
+  },
+  "image/x-photo-cd": {
+    "comment": "PCD image",
+    "extensions": [
+      "pcd"
+    ]
+  },
+  "image/x-portable-anymap": {
+    "comment": "PNM image",
+    "extensions": [
+      "pnm"
+    ]
+  },
+  "image/x-portable-bitmap": {
+    "comment": "PBM image",
+    "super_type": "image/x-portable-anymap",
+    "extensions": [
+      "pbm"
+    ]
+  },
+  "image/x-portable-graymap": {
+    "comment": "PGM image",
+    "super_type": "image/x-portable-anymap",
+    "extensions": [
+      "pgm"
+    ]
+  },
+  "image/x-portable-pixmap": {
+    "comment": "PPM image",
+    "super_type": "image/x-portable-anymap",
+    "extensions": [
+      "ppm"
+    ]
+  },
+  "image/vnd.adobe.photoshop": {
+    "aliases": [
+      "image/psd",
+      "image/x-psd",
+      "image/photoshop",
+      "image/x-photoshop",
+      "application/photoshop",
+      "application/x-photoshop"
+    ],
+    "comment": "Photoshop image",
+    "extensions": [
+      "psd"
+    ]
+  },
+  "image/x-rgb": {
+    "comment": "RGB image",
+    "extensions": [
+      "rgb"
+    ]
+  },
+  "image/x-sgi": {
+    "comment": "SGI image",
+    "extensions": [
+      "sgi"
+    ]
+  },
+  "image/x-sun-raster": {
+    "comment": "Sun raster image",
+    "extensions": [
+      "sun"
+    ]
+  },
+  "image/x-tga": {
+    "aliases": [
+      "image/x-icb"
+    ],
+    "comment": "TGA image",
+    "extensions": [
+      "icb",
+      "tga",
+      "tpic",
+      "vda",
+      "vst"
+    ]
+  },
+  "image/x-win-bitmap": {
+    "comment": "Windows cursor",
+    "extensions": [
+      "cur"
+    ]
+  },
+  "application/x-navi-animation": {
+    "comment": "Windows animated cursor",
+    "extensions": [
+      "ani"
+    ]
+  },
+  "image/x-emf": {
+    "aliases": [
+      "image/emf",
+      "application/x-emf",
+      "application/emf"
+    ],
+    "comment": "EMF image",
+    "extensions": [
+      "emf"
+    ]
+  },
+  "image/x-wmf": {
+    "aliases": [
+      "image/wmf",
+      "image/x-win-metafile",
+      "application/x-wmf",
+      "application/wmf",
+      "application/x-msmetafile"
+    ],
+    "comment": "WMF image",
+    "extensions": [
+      "wmf"
+    ]
+  },
+  "image/x-xbitmap": {
+    "comment": "XBM image",
+    "extensions": [
+      "xbm"
+    ]
+  },
+  "image/x-xcf": {
+    "comment": "GIMP image",
+    "extensions": [
+      "xcf"
+    ]
+  },
+  "image/x-xfig": {
+    "comment": "XFig image",
+    "extensions": [
+      "fig"
+    ]
+  },
+  "image/x-xpixmap": {
+    "aliases": [
+      "image/x-xpm"
+    ],
+    "comment": "XPM image",
+    "extensions": [
+      "xpm"
+    ]
+  },
+  "image/x-xwindowdump": {
+    "comment": "X window image",
+    "extensions": [
+      "xwd"
+    ]
+  },
+  "inode/blockdevice": {
+    "comment": "block device"
+  },
+  "inode/chardevice": {
+    "comment": "character device"
+  },
+  "inode/directory": {
+    "aliases": [
+      "x-directory/normal"
+    ],
+    "comment": "folder",
+    "generic_icon": "folder"
+  },
+  "inode/fifo": {
+    "comment": "pipe"
+  },
+  "inode/mount-point": {
+    "comment": "mount point",
+    "super_type": "inode/directory"
+  },
+  "inode/socket": {
+    "comment": "socket"
+  },
+  "inode/symlink": {
+    "comment": "symbolic link"
+  },
+  "message/delivery-status": {
+    "comment": "mail delivery report",
+    "super_type": "text/plain",
+    "generic_icon": "text-x-generic"
+  },
+  "message/disposition-notification": {
+    "comment": "mail disposition report",
+    "super_type": "text/plain",
+    "generic_icon": "text-x-generic"
+  },
+  "message/external-body": {
+    "comment": "reference to remote file",
+    "generic_icon": "text-x-generic"
+  },
+  "message/news": {
+    "comment": "Usenet news message",
+    "super_type": "text/plain",
+    "generic_icon": "text-x-generic"
+  },
+  "message/partial": {
+    "comment": "partial email message",
+    "super_type": "text/plain",
+    "generic_icon": "text-x-generic"
+  },
+  "message/rfc822": {
+    "comment": "email message",
+    "super_type": "text/plain",
+    "extensions": [
+      "eml"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "message/x-gnu-rmail": {
+    "comment": "GNU mail message",
+    "extensions": [
+      "AIL"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "model/vrml": {
+    "comment": "VRML document",
+    "super_type": "text/plain",
+    "extensions": [
+      "vrm",
+      "vrml",
+      "wrl"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "multipart/alternative": {
+    "comment": "message in several formats"
+  },
+  "multipart/appledouble": {
+    "comment": "Macintosh AppleDouble-encoded file"
+  },
+  "multipart/digest": {
+    "comment": "message digest"
+  },
+  "multipart/encrypted": {
+    "comment": "encrypted message"
+  },
+  "multipart/mixed": {
+    "comment": "compound documents"
+  },
+  "multipart/related": {
+    "comment": "compound document"
+  },
+  "multipart/report": {
+    "comment": "mail system report"
+  },
+  "multipart/signed": {
+    "comment": "signed message"
+  },
+  "multipart/x-mixed-replace": {
+    "comment": "stream of data (server push)"
+  },
+  "text/calendar": {
+    "aliases": [
+      "text/x-vcalendar",
+      "application/ics"
+    ],
+    "comment": "VCS/ICS calendar",
+    "super_type": "text/plain",
+    "extensions": [
+      "vcs",
+      "ics"
+    ]
+  },
+  "text/css": {
+    "comment": "CSS stylesheet",
+    "super_type": "text/plain",
+    "extensions": [
+      "css"
+    ]
+  },
+  "text/vcard": {
+    "aliases": [
+      "text/directory",
+      "text/x-vcard"
+    ],
+    "comment": "electronic business card",
+    "super_type": "text/plain",
+    "extensions": [
+      "vcard",
+      "vcf",
+      "vct",
+      "gcrd"
+    ]
+  },
+  "text/turtle": {
+    "comment": "Turtle document",
+    "super_type": "text/plain",
+    "extensions": [
+      "ttl"
+    ]
+  },
+  "text/x-txt2tags": {
+    "comment": "txt2tags document",
+    "super_type": "text/plain",
+    "extensions": [
+      "t2t"
+    ]
+  },
+  "text/x-verilog": {
+    "comment": "Verilog source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "v"
+    ]
+  },
+  "text/x-svhdr": {
+    "comment": "SystemVerilog header",
+    "super_type": "text/x-verilog",
+    "extensions": [
+      "svh"
+    ]
+  },
+  "text/x-svsrc": {
+    "comment": "SystemVerilog source code",
+    "super_type": "text/x-verilog",
+    "extensions": [
+      "sv"
+    ]
+  },
+  "text/x-vhdl": {
+    "comment": "VHDL source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "vhd",
+      "vhdl"
+    ]
+  },
+  "text/enriched": {
+    "comment": "enriched text document",
+    "super_type": "text/plain"
+  },
+  "text/htmlh": {
+    "comment": "help page",
+    "super_type": "text/plain"
+  },
+  "text/plain": {
+    "comment": "plain text document",
+    "extensions": [
+      "txt",
+      "asc",
+      "v"
+    ]
+  },
+  "application/rdf+xml": {
+    "aliases": [
+      "text/rdf"
+    ],
+    "comment": "RDF file",
+    "super_type": "application/xml",
+    "extensions": [
+      "rdf",
+      "rdfs",
+      "owl"
+    ]
+  },
+  "application/owl+xml": {
+    "comment": "OWL XML file",
+    "super_type": "application/xml",
+    "extensions": [
+      "owx"
+    ]
+  },
+  "text/rfc822-headers": {
+    "comment": "email headers",
+    "super_type": "text/plain"
+  },
+  "text/richtext": {
+    "comment": "rich text document",
+    "super_type": "text/plain",
+    "extensions": [
+      "rtx"
+    ]
+  },
+  "application/rss+xml": {
+    "aliases": [
+      "text/rss"
+    ],
+    "comment": "RSS summary",
+    "super_type": "application/xml",
+    "extensions": [
+      "rss"
+    ],
+    "generic_icon": "text-html"
+  },
+  "application/atom+xml": {
+    "comment": "Atom syndication feed",
+    "super_type": "application/xml",
+    "extensions": [
+      "atom"
+    ],
+    "generic_icon": "text-html"
+  },
+  "text/x-opml+xml": {
+    "aliases": [
+      "text/x-opml"
+    ],
+    "comment": "OPML syndication feed",
+    "super_type": "application/xml",
+    "extensions": [
+      "opml"
+    ],
+    "generic_icon": "text-html"
+  },
+  "text/sgml": {
+    "comment": "SGML document",
+    "super_type": "text/plain",
+    "extensions": [
+      "sgml",
+      "sgm"
+    ]
+  },
+  "text/spreadsheet": {
+    "comment": "spreadsheet interchange document",
+    "super_type": "text/plain",
+    "extensions": [
+      "sylk",
+      "slk"
+    ]
+  },
+  "text/tab-separated-values": {
+    "comment": "TSV document",
+    "super_type": "text/plain",
+    "extensions": [
+      "tsv"
+    ]
+  },
+  "text/vnd.graphviz": {
+    "comment": "Graphviz DOT graph",
+    "extensions": [
+      "gv",
+      "dot"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "text/vnd.sun.j2me.app-descriptor": {
+    "comment": "JAD document",
+    "extensions": [
+      "jad"
+    ]
+  },
+  "text/vnd.wap.wml": {
+    "comment": "WML document",
+    "super_type": "application/xml",
+    "extensions": [
+      "wml"
+    ]
+  },
+  "text/vnd.wap.wmlscript": {
+    "comment": "WMLScript program",
+    "extensions": [
+      "wmls"
+    ]
+  },
+  "application/x-ace": {
+    "comment": "ACE archive",
+    "extensions": [
+      "ace"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "text/x-adasrc": {
+    "comment": "Ada source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "adb",
+      "ads"
+    ]
+  },
+  "text/x-authors": {
+    "comment": "author list",
+    "super_type": "text/plain",
+    "extensions": [
+      "THORS"
+    ]
+  },
+  "text/x-bibtex": {
+    "comment": "BibTeX document",
+    "super_type": "text/plain",
+    "extensions": [
+      "bib"
+    ]
+  },
+  "text/x-c++hdr": {
+    "comment": "C++ header",
+    "super_type": "text/x-chdr",
+    "extensions": [
+      "hh",
+      "hp",
+      "hpp",
+      "h++",
+      "hxx"
+    ]
+  },
+  "text/x-c++src": {
+    "comment": "C++ source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "cpp",
+      "cxx",
+      "cc",
+      "C",
+      "c++"
+    ]
+  },
+  "text/x-changelog": {
+    "comment": "ChangeLog document",
+    "super_type": "text/plain",
+    "extensions": [
+      "angeLog"
+    ]
+  },
+  "text/x-chdr": {
+    "comment": "C header",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "h"
+    ]
+  },
+  "text/x-cmake": {
+    "comment": "CMake source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "cmake",
+      "akeLists.txt"
+    ]
+  },
+  "text/csv": {
+    "aliases": [
+      "text/x-comma-separated-values",
+      "text/x-csv"
+    ],
+    "comment": "CSV document",
+    "super_type": "text/plain",
+    "extensions": [
+      "csv"
+    ]
+  },
+  "text/x-copying": {
+    "comment": "license terms",
+    "super_type": "text/plain",
+    "extensions": [
+      "PYING"
+    ]
+  },
+  "text/x-credits": {
+    "comment": "author credits",
+    "super_type": "text/plain",
+    "extensions": [
+      "EDITS"
+    ]
+  },
+  "text/x-csrc": {
+    "aliases": [
+      "text/x-c"
+    ],
+    "comment": "C source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "c"
+    ]
+  },
+  "text/x-csharp": {
+    "comment": "C# source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "cs"
+    ]
+  },
+  "text/x-vala": {
+    "comment": "Vala source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "vala",
+      "vapi"
+    ]
+  },
+  "text/x-ooc": {
+    "comment": "OOC source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "ooc"
+    ]
+  },
+  "text/x-dcl": {
+    "comment": "DCL script",
+    "super_type": "text/plain",
+    "extensions": [
+      "dcl"
+    ]
+  },
+  "text/x-dsl": {
+    "comment": "DSSSL document",
+    "super_type": "text/plain",
+    "extensions": [
+      "dsl"
+    ]
+  },
+  "text/x-dsrc": {
+    "comment": "D source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "d",
+      "di"
+    ]
+  },
+  "application/xml-dtd": {
+    "aliases": [
+      "text/x-dtd"
+    ],
+    "comment": "DTD file",
+    "super_type": "text/plain",
+    "extensions": [
+      "dtd"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "text/x-eiffel": {
+    "comment": "Eiffel source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "e",
+      "eif"
+    ]
+  },
+  "text/x-emacs-lisp": {
+    "comment": "Emacs Lisp source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "el"
+    ]
+  },
+  "text/x-erlang": {
+    "comment": "Erlang source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "erl"
+    ]
+  },
+  "text/x-fortran": {
+    "comment": "Fortran source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "f",
+      "f90",
+      "f95",
+      "for"
+    ]
+  },
+  "text/x-genie": {
+    "comment": "Genie source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "gs"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "text/x-gettext-translation": {
+    "aliases": [
+      "text/x-po",
+      "application/x-gettext"
+    ],
+    "comment": "translation file",
+    "super_type": "text/plain",
+    "extensions": [
+      "po"
+    ]
+  },
+  "text/x-gettext-translation-template": {
+    "aliases": [
+      "text/x-pot"
+    ],
+    "comment": "translation template",
+    "super_type": "text/plain",
+    "extensions": [
+      "pot"
+    ]
+  },
+  "text/html": {
+    "comment": "HTML document",
+    "super_type": "text/plain",
+    "extensions": [
+      "html",
+      "htm"
+    ]
+  },
+  "text/cache-manifest": {
+    "comment": "Web application cache manifest",
+    "super_type": "text/plain",
+    "extensions": [
+      "manifest"
+    ]
+  },
+  "text/x-google-video-pointer": {
+    "aliases": [
+      "text/google-video-pointer"
+    ],
+    "comment": "Google Video Pointer",
+    "extensions": [
+      "gvp"
+    ]
+  },
+  "text/x-haskell": {
+    "comment": "Haskell source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "hs"
+    ]
+  },
+  "text/x-idl": {
+    "comment": "IDL document",
+    "super_type": "text/plain",
+    "extensions": [
+      "idl"
+    ]
+  },
+  "text/x-install": {
+    "comment": "installation instructions",
+    "super_type": "text/plain",
+    "extensions": [
+      "STALL"
+    ]
+  },
+  "text/x-java": {
+    "comment": "Java source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "java"
+    ]
+  },
+  "text/x-ldif": {
+    "comment": "LDIF address book",
+    "super_type": "text/plain",
+    "extensions": [
+      "ldif"
+    ]
+  },
+  "text/x-lilypond": {
+    "comment": "Lilypond music sheet",
+    "super_type": "text/plain",
+    "extensions": [
+      "ly"
+    ]
+  },
+  "text/x-literate-haskell": {
+    "comment": "LHS source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "lhs"
+    ]
+  },
+  "text/x-log": {
+    "comment": "application log",
+    "super_type": "text/plain",
+    "extensions": [
+      "log"
+    ]
+  },
+  "text/x-makefile": {
+    "comment": "Makefile",
+    "super_type": "text/plain",
+    "extensions": [
+      "kefile",
+      "Umakefile",
+      "mk",
+      "mak",
+      "kefile.*"
+    ]
+  },
+  "text/markdown": {
+    "aliases": [
+      "text/x-markdown"
+    ],
+    "comment": "Markdown document",
+    "super_type": "text/plain",
+    "extensions": [
+      "md",
+      "mkd",
+      "markdown"
+    ]
+  },
+  "text/x-moc": {
+    "comment": "Qt MOC file",
+    "super_type": "text/plain",
+    "extensions": [
+      "moc"
+    ]
+  },
+  "text/x-ms-regedit": {
+    "comment": "Windows Registry extract",
+    "super_type": "text/plain",
+    "extensions": [
+      "reg"
+    ]
+  },
+  "text/x-mof": {
+    "comment": "Managed Object Format",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "mof"
+    ]
+  },
+  "text/x-mup": {
+    "comment": "Mup publication",
+    "super_type": "text/plain",
+    "extensions": [
+      "mup",
+      "not"
+    ]
+  },
+  "text/x-objcsrc": {
+    "comment": "Objective-C source code",
+    "super_type": "text/x-csrc",
+    "extensions": [
+      "m"
+    ]
+  },
+  "text/x-ocaml": {
+    "comment": "OCaml source code",
+    "extensions": [
+      "ml",
+      "mli"
+    ]
+  },
+  "text/x-matlab": {
+    "aliases": [
+      "text/x-octave"
+    ],
+    "comment": "MATLAB script/function",
+    "super_type": "text/plain",
+    "extensions": [
+      "m"
+    ]
+  },
+  "text/x-modelica": {
+    "comment": "Modelica model",
+    "super_type": "text/plain",
+    "extensions": [
+      "mo"
+    ]
+  },
+  "text/x-pascal": {
+    "comment": "Pascal source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "p",
+      "pas"
+    ]
+  },
+  "text/x-patch": {
+    "aliases": [
+      "text/x-diff"
+    ],
+    "comment": "differences between files",
+    "super_type": "text/plain",
+    "extensions": [
+      "diff",
+      "patch"
+    ]
+  },
+  "text/x-go": {
+    "comment": "Go source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "go"
+    ]
+  },
+  "text/x-scons": {
+    "comment": "SCons configuration file",
+    "super_type": "text/x-python",
+    "extensions": [
+      "onstruct",
+      "onscript",
+      "onscript.*"
+    ]
+  },
+  "text/x-python": {
+    "comment": "Python script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "py",
+      "pyx",
+      "wsgi"
+    ]
+  },
+  "text/x-lua": {
+    "comment": "Lua script",
+    "super_type": "application/x-executable",
+    "extensions": [
+      "lua"
+    ]
+  },
+  "text/x-readme": {
+    "comment": "README document",
+    "super_type": "text/plain",
+    "extensions": [
+      "ADME*"
+    ]
+  },
+  "text/x-nfo": {
+    "comment": "NFO document",
+    "super_type": "text/x-readme",
+    "extensions": [
+      "nfo"
+    ]
+  },
+  "text/x-rpm-spec": {
+    "comment": "RPM spec file",
+    "super_type": "text/plain",
+    "extensions": [
+      "spec"
+    ]
+  },
+  "text/x-scala": {
+    "comment": "Scala source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "scala"
+    ]
+  },
+  "text/x-scheme": {
+    "comment": "Scheme source code",
+    "super_type": "text/plain",
+    "extensions": [
+      "scm",
+      "ss"
+    ]
+  },
+  "text/x-setext": {
+    "comment": "Setext document",
+    "super_type": "text/plain",
+    "extensions": [
+      "etx"
+    ]
+  },
+  "application/sql": {
+    "aliases": [
+      "text/x-sql"
+    ],
+    "comment": "SQL code",
+    "super_type": "text/plain",
+    "extensions": [
+      "sql"
+    ]
+  },
+  "text/x-tcl": {
+    "comment": "Tcl script",
+    "super_type": "text/plain",
+    "extensions": [
+      "tcl",
+      "tk"
+    ]
+  },
+  "text/x-tex": {
+    "aliases": [
+      "application/x-tex"
+    ],
+    "comment": "TeX document",
+    "super_type": "text/plain",
+    "extensions": [
+      "tex",
+      "ltx",
+      "sty",
+      "cls",
+      "dtx",
+      "ins",
+      "latex"
+    ]
+  },
+  "text/x-texinfo": {
+    "comment": "TeXInfo document",
+    "super_type": "text/plain",
+    "extensions": [
+      "texi",
+      "texinfo"
+    ]
+  },
+  "text/x-troff-me": {
+    "comment": "Troff ME input document",
+    "super_type": "text/plain",
+    "extensions": [
+      "me"
+    ]
+  },
+  "text/x-troff-mm": {
+    "comment": "Troff MM input document",
+    "super_type": "text/plain",
+    "extensions": [
+      "mm"
+    ]
+  },
+  "text/x-troff-ms": {
+    "comment": "Troff MS input document",
+    "super_type": "text/plain",
+    "extensions": [
+      "ms"
+    ]
+  },
+  "text/x-uil": {
+    "comment": "X-Motif UIL table",
+    "super_type": "text/plain",
+    "extensions": [
+      "uil"
+    ]
+  },
+  "text/x-uri": {
+    "comment": "resource location",
+    "super_type": "text/plain"
+  },
+  "text/x-uuencode": {
+    "aliases": [
+      "zz-application/zz-winassoc-uu"
+    ],
+    "comment": "uuencoded file",
+    "super_type": "text/plain",
+    "extensions": [
+      "uue"
+    ]
+  },
+  "text/x-xmi": {
+    "comment": "XMI file",
+    "super_type": "application/xml",
+    "extensions": [
+      "xmi"
+    ]
+  },
+  "text/x-xslfo": {
+    "comment": "XSL FO file",
+    "super_type": "application/xml",
+    "extensions": [
+      "fo",
+      "xslfo"
+    ]
+  },
+  "text/x-iptables": {
+    "comment": "iptables configuration file",
+    "super_type": "text/plain",
+    "extensions": [
+      "iptables"
+    ]
+  },
+  "application/xslt+xml": {
+    "comment": "XSLT stylesheet",
+    "super_type": "application/xml",
+    "extensions": [
+      "xsl",
+      "xslt"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "text/xmcd": {
+    "comment": "XMCD CD database",
+    "super_type": "text/plain"
+  },
+  "application/xml": {
+    "aliases": [
+      "text/xml"
+    ],
+    "comment": "XML document",
+    "super_type": "text/plain",
+    "extensions": [
+      "xml",
+      "xbl",
+      "xsd",
+      "rng"
+    ],
+    "generic_icon": "text-html"
+  },
+  "application/xml-external-parsed-entity": {
+    "aliases": [
+      "text/xml-external-parsed-entity"
+    ],
+    "comment": "XML entities document",
+    "super_type": "application/xml",
+    "extensions": [
+      "ent"
+    ],
+    "generic_icon": "text-html"
+  },
+  "video/dv": {
+    "comment": "DV video",
+    "extensions": [
+      "dv"
+    ]
+  },
+  "video/isivideo": {
+    "comment": "ISI video"
+  },
+  "video/mp2t": {
+    "comment": "MPEG-2 transport stream",
+    "extensions": [
+      "m2t",
+      "m2ts",
+      "ts",
+      "mts",
+      "cpi",
+      "clpi",
+      "mpl",
+      "mpls",
+      "bdm",
+      "bdmv"
+    ]
+  },
+  "video/mpeg": {
+    "aliases": [
+      "video/x-mpeg",
+      "video/x-mpeg2"
+    ],
+    "comment": "MPEG video",
+    "extensions": [
+      "mpeg",
+      "mpg",
+      "mp2",
+      "mpe",
+      "vob",
+      "-9][0-9][0-9].vdr"
+    ]
+  },
+  "video/vnd.mpegurl": {
+    "aliases": [
+      "video/x-mpegurl"
+    ],
+    "comment": "MPEG video (streamed)",
+    "super_type": "text/plain",
+    "extensions": [
+      "m1u",
+      "m4u",
+      "mxu"
+    ]
+  },
+  "video/quicktime": {
+    "comment": "QuickTime video",
+    "extensions": [
+      "qt",
+      "mov",
+      "moov",
+      "qtvr"
+    ]
+  },
+  "image/x-quicktime": {
+    "comment": "QuickTime image",
+    "extensions": [
+      "qtif",
+      "qif"
+    ]
+  },
+  "video/vnd.vivo": {
+    "aliases": [
+      "video/vivo"
+    ],
+    "comment": "Vivo video",
+    "extensions": [
+      "viv",
+      "vivo"
+    ]
+  },
+  "video/wavelet": {
+    "comment": "Wavelet video"
+  },
+  "video/x-anim": {
+    "comment": "ANIM animation",
+    "extensions": [
+      "anim[1-9j]"
+    ]
+  },
+  "video/x-flic": {
+    "aliases": [
+      "video/fli",
+      "video/x-fli"
+    ],
+    "comment": "FLIC animation",
+    "extensions": [
+      "fli",
+      "flc"
+    ]
+  },
+  "application/x-hwp": {
+    "aliases": [
+      "application/vnd.haansoft-hwp"
+    ],
+    "comment": "Haansoft Hangul document",
+    "extensions": [
+      "hwp"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-hwt": {
+    "aliases": [
+      "application/vnd.haansoft-hwt"
+    ],
+    "comment": "Haansoft Hangul document template",
+    "extensions": [
+      "hwt"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "video/x-mng": {
+    "comment": "MNG animation",
+    "extensions": [
+      "mng"
+    ]
+  },
+  "application/vnd.ms-asf": {
+    "aliases": [
+      "video/x-ms-wm",
+      "video/x-ms-asf"
+    ],
+    "comment": "ASF video",
+    "extensions": [
+      "asf"
+    ]
+  },
+  "application/x-netshow-channel": {
+    "comment": "Windows Media Station file",
+    "super_type": "application/vnd.ms-asf",
+    "extensions": [
+      "nsc"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "video/x-ms-wmv": {
+    "comment": "Windows Media video",
+    "super_type": "application/vnd.ms-asf",
+    "extensions": [
+      "wmv"
+    ]
+  },
+  "video/x-msvideo": {
+    "aliases": [
+      "video/x-avi",
+      "video/avi",
+      "video/divx",
+      "video/msvideo",
+      "video/vnd.divx"
+    ],
+    "comment": "AVI video",
+    "extensions": [
+      "avi",
+      "avf",
+      "divx"
+    ]
+  },
+  "video/x-nsv": {
+    "comment": "NullSoft video",
+    "extensions": [
+      "nsv"
+    ]
+  },
+  "application/sdp": {
+    "aliases": [
+      "application/x-sdp",
+      "application/vnd.sdp"
+    ],
+    "comment": "SDP multicast stream file",
+    "extensions": [
+      "sdp"
+    ],
+    "generic_icon": "video-x-generic"
+  },
+  "video/x-sgi-movie": {
+    "comment": "SGI video",
+    "extensions": [
+      "movie"
+    ]
+  },
+  "application/vnd.emusic-emusic_package": {
+    "comment": "eMusic download package",
+    "extensions": [
+      "emp"
+    ],
+    "generic_icon": "package-x-generic"
+  },
+  "application/vnd.google-earth.kml+xml": {
+    "comment": "KML geographic data",
+    "super_type": "application/xml",
+    "extensions": [
+      "kml"
+    ]
+  },
+  "application/vnd.google-earth.kmz": {
+    "comment": "KML geographic compressed data",
+    "super_type": "application/zip",
+    "extensions": [
+      "kmz"
+    ]
+  },
+  "application/x-ica": {
+    "comment": "Citrix ICA settings file",
+    "super_type": "text/plain",
+    "extensions": [
+      "ica"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/vnd.mozilla.xul+xml": {
+    "comment": "XUL interface document",
+    "super_type": "application/xml",
+    "extensions": [
+      "xul"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-xpinstall": {
+    "comment": "XPInstall installer module",
+    "super_type": "application/zip",
+    "extensions": [
+      "xpi"
+    ]
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+    "comment": "Word 2007 document",
+    "super_type": "application/zip",
+    "extensions": [
+      "docx"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.template": {
+    "comment": "Word 2007 document template",
+    "super_type": "application/zip",
+    "extensions": [
+      "dotx"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": {
+    "comment": "PowerPoint 2007 presentation",
+    "super_type": "application/zip",
+    "extensions": [
+      "pptx"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slide": {
+    "comment": "PowerPoint 2007 slide",
+    "super_type": "application/zip",
+    "extensions": [
+      "sldx"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.slideshow": {
+    "comment": "PowerPoint 2007 show",
+    "super_type": "application/zip",
+    "extensions": [
+      "ppsx"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.openxmlformats-officedocument.presentationml.template": {
+    "comment": "PowerPoint 2007 presentation template",
+    "super_type": "application/zip",
+    "extensions": [
+      "potx"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+    "comment": "Excel 2007 spreadsheet",
+    "super_type": "application/zip",
+    "extensions": [
+      "xlsx"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.template": {
+    "comment": "Excel 2007 spreadsheet template",
+    "super_type": "application/zip",
+    "extensions": [
+      "xltx"
+    ],
+    "generic_icon": "x-office-spreadsheet"
+  },
+  "application/x-t602": {
+    "comment": "T602 document",
+    "extensions": [
+      "602"
+    ],
+    "generic_icon": "x-office-document"
+  },
+  "application/x-cisco-vpn-settings": {
+    "comment": "Cisco VPN Settings",
+    "extensions": [
+      "pcf"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/vnd.iccprofile": {
+    "comment": "ICC profile",
+    "extensions": [
+      "icc",
+      "icm"
+    ]
+  },
+  "application/x-it87": {
+    "comment": "IT 8.7 color calibration file",
+    "super_type": "text/plain",
+    "extensions": [
+      "it87"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/x-ccmx": {
+    "comment": "CCMX color correction file",
+    "super_type": "text/plain",
+    "extensions": [
+      "ccmx"
+    ],
+    "generic_icon": "text-x-generic"
+  },
+  "application/winhlp": {
+    "aliases": [
+      "zz-application/zz-winassoc-hlp"
+    ],
+    "comment": "WinHelp help file",
+    "extensions": [
+      "hlp"
+    ]
+  },
+  "x-content/image-dcf": {
+    "comment": "digital photos"
+  },
+  "x-content/video-vcd": {
+    "comment": "Video CD"
+  },
+  "x-content/video-svcd": {
+    "comment": "Super Video CD"
+  },
+  "x-content/video-dvd": {
+    "comment": "video DVD"
+  },
+  "x-content/audio-cdda": {
+    "comment": "audio CD"
+  },
+  "x-content/blank-cd": {
+    "comment": "blank CD disc"
+  },
+  "x-content/blank-dvd": {
+    "comment": "blank DVD disc"
+  },
+  "x-content/blank-bd": {
+    "comment": "blank Blu-ray disc"
+  },
+  "x-content/blank-hddvd": {
+    "comment": "blank HD DVD disc"
+  },
+  "x-content/audio-dvd": {
+    "comment": "audio DVD"
+  },
+  "x-content/video-bluray": {
+    "comment": "Blu-ray video disc"
+  },
+  "x-content/video-hddvd": {
+    "comment": "HD DVD video disc"
+  },
+  "x-content/ebook-reader": {
+    "comment": "e-book reader"
+  },
+  "x-content/image-picturecd": {
+    "comment": "Picture CD"
+  },
+  "x-content/audio-player": {
+    "comment": "portable audio player"
+  },
+  "x-content/software": {
+    "comment": "software"
+  },
+  "x-content/unix-software": {
+    "comment": "UNIX software",
+    "super_type": "x-content/software"
+  },
+  "x-content/win32-software": {
+    "comment": "Windows software",
+    "super_type": "x-content/software"
+  },
+  "application/x-trig": {
+    "comment": "TriG RDF document",
+    "super_type": "text/plain",
+    "extensions": [
+      "trig"
+    ]
+  },
+  "application/x-iwork-keynote-sffkey": {
+    "aliases": [
+      "application/vnd.apple.keynote"
+    ],
+    "comment": "Apple Keynote 5 presentation",
+    "super_type": "application/zip",
+    "extensions": [
+      "key"
+    ],
+    "generic_icon": "x-office-presentation"
+  },
+  "application/x-pagemaker": {
+    "comment": "Adobe PageMaker",
+    "super_type": "application/x-ole-storage",
+    "extensions": [
+      "p65",
+      "pm",
+      "pm6",
+      "pmd"
+    ],
+    "generic_icon": "x-office-document"
+  }
+}
