@@ -1,27 +1,16 @@
-#!/usr/bin/env iojs
+#!/usr/bin/env node
 
 var fs = require('fs'),
-    xml2js = require('xml2js'),
     path = require('path');
 
+var xml2js = require('xml2js');
 
 var __dirname = __dirname || process.cwd();
+var output_db_json = path.join(__dirname, '../shared-mime-db.json')
 
 var parser = new xml2js.Parser();
 fs.readFile(__dirname + '/freedesktop.org.xml.in', function(err, data) {
     parser.parseString(data, function (err, result) {
-        // var raw_type_atk_inset = result['mime-info']['mime-type'][0]
-        // var formatted_type_atk_inset = {
-        //     type: raw_type_atk_inset.$.type,
-        //     alias: raw_type_atk_inset.alias && raw_type_atk_inset.alias[0].$.type,
-        //     comment: raw_type_atk_inset._comment[0],
-        //     super_type: raw_type_atk_inset['sub-class-of']
-        //         && raw_type_atk_inset['sub-class-of'][0].$.type,
-        //     extension: path.extname(raw_type_atk_inset.glob[0].$.pattern),
-        //     generic_icon: raw_type_atk_inset['generic-icon'][0].$.name
-        // }
-        // console.dir(formatted_type_atk_inset);
-
         var res_json = {};
         result['mime-info']['mime-type'].forEach(function(raw_info){
             var type = raw_info.$.type;
@@ -43,7 +32,6 @@ fs.readFile(__dirname + '/freedesktop.org.xml.in', function(err, data) {
             }
         })
 
-        var output_db_json = path.join(__dirname, '../shared-mime-db.json')
         fs.writeFile(output_db_json,
                      JSON.stringify(res_json, null, 2),
                      function(err) {
@@ -55,6 +43,4 @@ fs.readFile(__dirname + '/freedesktop.org.xml.in', function(err, data) {
                      });
     });
 });
-// console.dir(res['mime-info']['mime-type'][1]);
-// console.log('Done');
 

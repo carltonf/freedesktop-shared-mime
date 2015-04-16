@@ -1,0 +1,41 @@
+* freedesktop-shared-mime
+
+=Node= MIME library uses [[http://freedesktop.org/wiki/Software/shared-mime-info/][FreeDesktop shared-mime-info]] as database.
+* FreeDesktop Shared MIME Info
+
+=FreeDesktop shared mime info= contains a large number of common MIME types,
+created by converting the existing KDE and GNOME databases to the new format and
+merging them together. This database is more suitable for =nodejs= desktop
+applications.
+
+This package's building process converts =freedesktop.org.xml.in= to a =JSON=
+data file.
+
+*No =Charsets= info are available*
+
+* Install
+
+: npm install freedesktop-shared-mime
+
+* Usage
+
+The library interface is similar to [[https://github.com/jshttp/mime-types][mime-types]], with freedesktop-specific
+features like:
+
+#+BEGIN_SRC javascript
+  var shared_mime = require('freedesktop-shared-mime')
+
+  shared_mime.supertype("application/epub+zip")         // "application/zip"
+
+  shared_mime.comment("application/x-jbuilder-project") // "JBuilder project"
+
+  shared_mime.generic_icon("application/rss+xml") // "text-html"
+#+END_SRC
+
+* TODO Remainings
+
+** Better README
+Do we have to use =md= format?
+
+** tests
+use =Istanbul= or others for coverage tests.

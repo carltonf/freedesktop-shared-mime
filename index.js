@@ -3,18 +3,18 @@ var db = require('./shared-mime-db.json')
 // map ext -> type 
 exports.types = {}
 // map type -> exts (already exists, just 'db' actually)
-exports.extensions = {}
+exports.exts = {}
 
 Object.keys(db).forEach(function(type){
     var exts = db[type].extensions
     if ( !exts || !exts.length )
         return;
 
-    exports.extensions[type] = exts
+    exports.exts[type] = exts
     // also handles alias
     if (db[type].aliases){
         db[type].aliases.forEach(function(alias){
-            exports.extensions[alias] = exts
+            exports.exts[alias] = exts
         })
     }
     
@@ -34,16 +34,16 @@ exports.lookup = function (string) {
 }
 
 // @string is type or alias
-exports.extension = function (type) {
+exports.extensions = function (type) {
     if (!type || typeof type !== "string") return false
 
-    return exports.extensions[type] || false
+    return exports.exts[type] || false
 }
 
 //////////////// Freedesktop Shared MIME Specifics ////////////////
 // TODO add support for aliases for functions below
 // @type, return the supertype
-exports.supertype_of = function(type){
+exports.supertype = function(type){
     if (!type || typeof type !== "string"
         || !db[type] ) return false
 
@@ -65,5 +65,5 @@ exports.generic_icon = function(type){
     if (!type || typeof type !== "string" || !db[type] )
         return false
 
-    return db[type].generic_icon
+    return db[type].generic_icon || false
 }

@@ -2,35 +2,35 @@ var assert = require('assert')
 var shared_mime = require('..')
 
 describe('Tests most from mime-types', function () {
-  describe('.extension(path)', function () {
-    it('should return extension for mime type', function () {
-      assert.deepEqual(shared_mime.extension('text/html'), ['html', 'htm'])
-      assert.notDeepEqual(shared_mime.extension('text/html'), ['html', 'htm', 'htmx'])
+  describe('.extensions(path)', function () {
+    it('should return extensions for mime type', function () {
+      assert.deepEqual(shared_mime.extensions('text/html'), ['html', 'htm'])
+      assert.notDeepEqual(shared_mime.extensions('text/html'), ['html', 'htm', 'htmx'])
     })
 
     it('should return false for unknown type', function () {
-      assert.strictEqual(shared_mime.extension('application/x-bogus'), false)
+      assert.strictEqual(shared_mime.extensions('application/x-bogus'), false)
     })
 
     it('should return false for non-type string', function () {
-      assert.strictEqual(shared_mime.extension('bogus'), false)
+      assert.strictEqual(shared_mime.extensions('bogus'), false)
     })
 
     it('should return false for non-strings', function () {
-      assert.strictEqual(shared_mime.extension(null), false)
-      assert.strictEqual(shared_mime.extension(undefined), false)
-      assert.strictEqual(shared_mime.extension(42), false)
-      assert.strictEqual(shared_mime.extension({}), false)
+      assert.strictEqual(shared_mime.extensions(null), false)
+      assert.strictEqual(shared_mime.extensions(undefined), false)
+      assert.strictEqual(shared_mime.extensions(42), false)
+      assert.strictEqual(shared_mime.extensions({}), false)
     })
 
     // freedesktop specific
-    it('should return extension for extra freedesktop mime type', function(){
-      assert.deepEqual(shared_mime.extension('application/x-ruby'), ['rb'])
-      assert.deepEqual(shared_mime.extension('text/x-python'), ['py', 'pyx', 'wsgi'])
+    it('should return extensions for extra freedesktop mime type', function(){
+      assert.deepEqual(shared_mime.extensions('application/x-ruby'), ['rb'])
+      assert.deepEqual(shared_mime.extensions('text/x-python'), ['py', 'pyx', 'wsgi'])
     })
   })
 
-  describe('.lookup(extension)', function () {
+  describe('.lookup(extensions)', function () {
     it('should return mime type for ".html"', function () {
       assert.equal(shared_mime.lookup('.html'), 'text/html')
     })
@@ -61,7 +61,7 @@ describe('Tests most from mime-types', function () {
       assert.equal(shared_mime.lookup('.Xml'), 'application/xml')
     })
 
-    it('should return false for unknown extension', function () {
+    it('should return false for unknown extensions', function () {
       assert.strictEqual(shared_mime.lookup('.bogus'), false)
       assert.strictEqual(shared_mime.lookup('bogus'), false)
     })
@@ -91,29 +91,29 @@ describe('Tests most from mime-types', function () {
       assert.equal(shared_mime.lookup('/path/to/PAGE.HTML'), 'text/html')
     })
 
-    it('should return false for unknown extension', function () {
+    it('should return false for unknown extensions', function () {
       assert.strictEqual(shared_mime.lookup('/path/to/file.bogus'), false)
     })
   })
 })
 
 describe("Freedesktop Specifics:", function(){
-  describe(".supertype_of", function(){
+  describe(".supertype", function(){
     it("should return supertype for mime type", function(){
-      assert.equal(shared_mime.supertype_of("application/epub+zip"),
+      assert.equal(shared_mime.supertype("application/epub+zip"),
                          "application/zip")
-      assert.equal(shared_mime.supertype_of("application/x-windows-themepack"),
+      assert.equal(shared_mime.supertype("application/x-windows-themepack"),
                          "application/vnd.ms-cab-compressed")
-      assert.equal(shared_mime.supertype_of("application/javascript"),
+      assert.equal(shared_mime.supertype("application/javascript"),
                          "application/ecmascript")
     })
 
     it("should return false for mime type without super type", function(){
-      assert.strictEqual(shared_mime.supertype_of("text/plain"), false)
+      assert.strictEqual(shared_mime.supertype("text/plain"), false)
     })
 
     it("should return false for unknown type", function(){
-      assert.strictEqual(shared_mime.supertype_of('application/x-bogus'), false)
+      assert.strictEqual(shared_mime.supertype('application/x-bogus'), false)
     })
   })
 
