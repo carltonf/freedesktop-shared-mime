@@ -30,6 +30,22 @@ Use =lstat=, the following special file types are also supported
 - "inode/fifo"
 - "inode/socket"
 
+** =lookup= is used for file names *exclusively*
+
+=mime-type= works for extension without leading dot, like
+: mime_type.lookup("html");  // "text/html"
+
+but
+: shared_mime.lookup("html"); // false
+
+The idea is that =lookup= should mainly be used to determine the file type
+according to file's extension. Under such considerations, "html" is a file
+without any extension, even though it has a name like some valid extension. This
+change avoids the following issue:
+
+: shared_mime.lookup("/home/me/Desktop");  // "inode/directory" not "application/x-desktop"
+
+
 * Install
 
 : npm install freedesktop-shared-mime

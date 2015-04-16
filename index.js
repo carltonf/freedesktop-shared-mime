@@ -2,7 +2,7 @@ var fs = require('fs'),
     path = require("path");
 var db = require('./shared-mime-db.json')
 
-// map ext -> type 
+// map ext -> type
 exports.types = {}
 // map type -> exts (already exists, just 'db' actually)
 exports.exts = {}
@@ -19,7 +19,7 @@ Object.keys(db).forEach(function(type){
             exports.exts[alias] = exts
         })
     }
-    
+
     exts.forEach(function (ext){
         exports.types[ext] = type;
     })
@@ -31,7 +31,7 @@ exports.lookup = function (str) {
     if (!str || typeof str !== "string") return false
 
     try{
-        var stats = fs.lstat(str)
+        var stats = fs.lstatSync(str)
     }catch(err){
         // ignore all FS errors
     }
@@ -61,7 +61,7 @@ exports.lookup = function (str) {
         return "inode/directory"
 
     str = path.basename(str)
-        .replace(/[^\.]*\./, '').toLowerCase();
+        .replace(/[^\.]*\.?/, '').toLowerCase();
 
     if (!str) return false
     return exports.types[str] || false
@@ -84,13 +84,13 @@ exports.supertype = function(type){
     return db[type].super_type || false;
 }
 
-// @type, return generic_icons = 
+// @type, return generic_icons =
 
 // @string is the type, return comments
 exports.comment = function (type){
     if (!type || typeof type !== "string" || !db[type]  )
         return false
-    
+
     return db[type].comment;
 }
 

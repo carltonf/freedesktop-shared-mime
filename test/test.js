@@ -51,13 +51,8 @@ describe('Tests most from mime-types', function () {
       assert.equal(shared_mime.lookup('.xml'), 'application/xml')
     })
 
-    it('should work without the leading dot', function () {
-      assert.equal(shared_mime.lookup('html'), 'text/html')
-      assert.equal(shared_mime.lookup('xml'), 'application/xml')
-    })
-
     it('should be case insensitive', function () {
-      assert.equal(shared_mime.lookup('HTML'), 'text/html')
+      assert.equal(shared_mime.lookup('.HTML'), 'text/html')
       assert.equal(shared_mime.lookup('.Xml'), 'application/xml')
     })
 
@@ -75,12 +70,11 @@ describe('Tests most from mime-types', function () {
 
     // freedesktop specifics
     it('should return mime type for real directory', function(){
-      assert.equal(shared_mime.lookup('./'), "inode/directory")
-      assert.strictEqual(shared_mime.lookup('bogus_directory'), false)
+      assert.equal(shared_mime.lookup('.'), "inode/directory")
+      assert.equal(shared_mime.lookup('/home'), "inode/directory")
     })
 
-    it('should return mime type for real directory', function(){
-      assert.equal(shared_mime.lookup('./'), "inode/directory")
+    it('should return false for non-existent directory', function(){
       assert.strictEqual(shared_mime.lookup('bogus_directory'), false)
     })
 
@@ -88,6 +82,13 @@ describe('Tests most from mime-types', function () {
       assert.equal(shared_mime.lookup('bogus_directory/'), "inode/directory")
     })
 
+    // WARNING: this has changed from mime-types
+    it('should NOT work without the leading dot, case-insensitive', function () {
+      assert.equal(shared_mime.lookup('html'), false)
+      assert.equal(shared_mime.lookup('xml'), false)
+      assert.equal(shared_mime.lookup('HTML'), false)
+      assert.equal(shared_mime.lookup('XML'), false)
+    })
   })
 
   describe('.lookup(path)', function () {
