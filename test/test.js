@@ -1,3 +1,4 @@
+// -*- js-indent-level: 2 -*-
 var assert = require('assert')
 var shared_mime = require('..')
 
