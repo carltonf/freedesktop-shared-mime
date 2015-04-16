@@ -68,6 +68,14 @@ exports.lookup = function (str) {
 }
 
 // @type is type or alias
+exports.aliases = function (type) {
+    if (!type || typeof type !== "string"
+        || !db[type]) return false
+
+    return db[type].aliases || false;
+}
+
+// @type is type or alias
 exports.extensions = function (type) {
     if (!type || typeof type !== "string") return false
 

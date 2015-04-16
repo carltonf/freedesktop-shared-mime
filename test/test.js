@@ -115,14 +115,30 @@ describe('Tests most from mime-types', function () {
 })
 
 describe("Freedesktop Specifics:", function(){
+  describe(".aliases", function(){
+    it("should return aliases for mime type with aliases", function(){
+      assert.deepEqual(shared_mime.aliases("video/vnd.mpegurl"), ["video/x-mpegurl"])
+      assert.deepEqual(shared_mime.aliases("text/x-gettext-translation"),
+                       ["text/x-po", "application/x-gettext"])
+    })
+
+    it("should return false for mime type with no aliases", function(){
+      assert.strictEqual(shared_mime.aliases("text/cache-manifest"), false)
+    })
+
+    it("should return false for unknow type", function(){
+      assert.strictEqual(shared_mime.aliases('application/x-bogus'), false)
+    })
+  })
+
   describe(".supertype", function(){
     it("should return supertype for mime type", function(){
       assert.equal(shared_mime.supertype("application/epub+zip"),
-                         "application/zip")
+                   "application/zip")
       assert.equal(shared_mime.supertype("application/x-windows-themepack"),
-                         "application/vnd.ms-cab-compressed")
+                   "application/vnd.ms-cab-compressed")
       assert.equal(shared_mime.supertype("application/javascript"),
-                         "application/ecmascript")
+                   "application/ecmascript")
     })
 
     it("should return false for mime type without super type", function(){

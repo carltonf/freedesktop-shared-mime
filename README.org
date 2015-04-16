@@ -61,6 +61,8 @@ features like:
   shared_mime.lookup(".")         // "inode/directory"
   shared_mime.lookup("nonexistent_dir/") // "inode/directory"
 
+  shared_mime.aliases("text/x-gettext-translation") // ["text/x-po", "application/x-gettext"]
+
   shared_mime.supertype("application/epub+zip")         // "application/zip"
 
   shared_mime.comment("application/x-jbuilder-project") // "JBuilder project"
