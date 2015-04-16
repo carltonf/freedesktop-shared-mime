@@ -11,7 +11,24 @@ applications.
 This package's building process converts =freedesktop.org.xml.in= to a =JSON=
 data file.
 
-*No =Charsets= info are available*
+* Main Features/Differences
+** Many more file types are supported
+
+FreeDesktop Shared MIME Info database seem to be larger than =IANA= standards,
+include script files like =Ruby=, =Python= and many others.
+
+** *No =Charsets= info are available*
+The =freedesktop= spec doesn't seem to have these information.
+
+** Directories and some other special file types are supported
+Use =lstat=, the following special file types are also supported
+
+- "inode/directory"
+- "inode/blockdevice"
+- "inode/chardevice"
+- "inode/symlink"
+- "inode/fifo"
+- "inode/socket"
 
 * Install
 
@@ -24,6 +41,9 @@ features like:
 
 #+BEGIN_SRC javascript
   var shared_mime = require('freedesktop-shared-mime')
+
+  shared_mime.lookup(".")         // "inode/directory"
+  shared_mime.lookup("nonexistent_dir/") // "inode/directory"
 
   shared_mime.supertype("application/epub+zip")         // "application/zip"
 

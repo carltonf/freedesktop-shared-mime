@@ -1,3 +1,5 @@
+var fs = require('fs'),
+    path = require("path");
 var db = require('./shared-mime-db.json')
 
 // map ext -> type 
@@ -23,17 +25,49 @@ Object.keys(db).forEach(function(type){
     })
 })
 
-exports.lookup = function (string) {
-    if (!string || typeof string !== "string") return false
+// @string: first test whether it's a existent path, if not used as a string to
+// determine the type
+exports.lookup = function (str) {
+    if (!str || typeof str !== "string") return false
 
-    string = require("path").basename(string)
+    try{
+        var stats = fs.lstat(str)
+    }catch(err){
+        // ignore all FS errors
+    }
+
+    if (stats){
+        if(stats.isDirectory())
+            return "inode/directory"
+        if(stats.isBlockDevice())
+            return "inode/blockdevice"
+        if(stats.isCharacterDevice())
+            return "inode/chardevice"
+        if(stats.isSymbolicLink())
+            return "inode/symlink"
+        if(stats.isFIFO())
+            return "inode/fifo"
+        if(stats.isSocket())
+            return "inode/socket"
+
+        if(stats.isFile()){
+            // TODO use magic to test what type it is
+            // do nothing
+        }
+    }
+
+    // not a real file, only manipulate strings
+    if (str.endsWith(path.sep))
+        return "inode/directory"
+
+    str = path.basename(str)
         .replace(/[^\.]*\./, '').toLowerCase();
 
-    if (!string) return false
-    return exports.types[string] || false
+    if (!str) return false
+    return exports.types[str] || false
 }
 
-// @string is type or alias
+// @type is type or alias
 exports.extensions = function (type) {
     if (!type || typeof type !== "string") return false
 

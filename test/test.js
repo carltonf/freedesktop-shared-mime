@@ -72,6 +72,22 @@ describe('Tests most from mime-types', function () {
       assert.strictEqual(shared_mime.lookup(42), false)
       assert.strictEqual(shared_mime.lookup({}), false)
     })
+
+    // freedesktop specifics
+    it('should return mime type for real directory', function(){
+      assert.equal(shared_mime.lookup('./'), "inode/directory")
+      assert.strictEqual(shared_mime.lookup('bogus_directory'), false)
+    })
+
+    it('should return mime type for real directory', function(){
+      assert.equal(shared_mime.lookup('./'), "inode/directory")
+      assert.strictEqual(shared_mime.lookup('bogus_directory'), false)
+    })
+
+    it('should return mime type for directory-like string', function(){
+      assert.equal(shared_mime.lookup('bogus_directory/'), "inode/directory")
+    })
+
   })
 
   describe('.lookup(path)', function () {
