@@ -45,6 +45,11 @@ change avoids the following issue:
 
 : shared_mime.lookup("/home/me/Desktop");  // "inode/directory" not "application/x-desktop"
 
+** Two-part extensions are also supported.
+
+: shared_mime.lookup("some.pdf.gz")  // "application/x-gzpdf"
+but only two-part extensions
+: shared_mime.lookup("some.vm.pdf.gz") // "application/x-gzpdf"
 
 * Install
 

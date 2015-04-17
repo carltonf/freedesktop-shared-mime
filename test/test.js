@@ -83,6 +83,11 @@ describe('Tests most from mime-types', function () {
       assert.equal(shared_mime.lookup('bogus_directory/'), "inode/directory")
     })
 
+    it('should support two-part extensions but not more', function(){
+      assert.equal(shared_mime.lookup("some.vm.pdf.gz"), "application/x-gzpdf")
+      assert.equal(shared_mime.lookup("some.pdf.gz"), "application/x-gzpdf")
+    })
+
     // WARNING: this has changed from mime-types
     it('should NOT work without the leading dot, case-insensitive', function () {
       assert.equal(shared_mime.lookup('html'), false)

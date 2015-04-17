@@ -60,11 +60,16 @@ exports.lookup = function (str) {
     if (str.endsWith(path.sep))
         return "inode/directory"
 
-    str = path.basename(str)
-        .replace(/[^\.]*\.?/, '').toLowerCase();
 
+    str = path.basename(str).match(/(\.[^\.]+)?\.([^\.]+)$/)
     if (!str) return false
-    return exports.types[str] || false
+    two_parts_ext = str[0].substring(1).toLowerCase()
+    // str[1] is the middle part
+    last_part_ext = str[2].toLowerCase()
+
+    return exports.types[two_parts_ext]
+        || exports.types[last_part_ext]
+        || false;
 }
 
 // @type is type or alias
