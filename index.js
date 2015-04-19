@@ -57,7 +57,7 @@ exports.lookup = function (str) {
     }
 
     // not a real file, only manipulate strings
-    if (str.endsWith(path.sep))
+    if (str.substr(-1) == path.sep)
         return "inode/directory"
 
 

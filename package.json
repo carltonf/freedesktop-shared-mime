@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "MIME library use freedesktop share MIME data.",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10.3"
+  },
   "scripts": {
     "prepublish": "node build/build.js > types.json",
-    "test": "node_modules/mocha/bin/_mocha --reporter spec test/test.js"
+    "test": "node_modules/mocha/bin/_mocha --reporter nyan test/test.js"
   },
   "repository": {
     "type": "git",
